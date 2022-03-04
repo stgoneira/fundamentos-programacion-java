@@ -1,5 +1,11 @@
 # Fundamentos de Programación en JAVA 
 
+## Exigencias
+
+1. Uso de Github
+2. Uso de JUnit (Pruebas)
+3. Uso de Linter
+
 ## Desafíos
 
 1. [Semana 1](https://github.com/stgoneira/fundamentos-programacion-java/desafios/semana1)
