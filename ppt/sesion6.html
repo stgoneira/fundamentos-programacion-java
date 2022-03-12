@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Fundamentos Programación Java - Sesión 6</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.css" integrity="sha512-e3dnmFe5hH2bJx1MvUU3PFToGVQ2xykp/VGERCkuh4lTGMJ5QuxKFRIwix8DfnfkavwJiL6rehb9e1d6mFLwlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/theme/beige.min.css" integrity="sha512-TzNEhkjNeiWrW7MYy7MlzBqBxqD7Ho7HtFpcW0rAQW4OK8pwZ37fvHKKpJPAmUdHbUnmmKdGwhB5ulLWgQ/l0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-separator="---" data-markdown data-line-numbers>
+    				<textarea data-template>
+## [Sesión 6 - Fundamentos Programación Java](#)
+
+Santiago Neira
+---
+## [Clase Anterior](#)
+- public y private 
+- Clases, Instancias, Constructores y static
+---
+## [Para Hoy](#)
+- Pruebas (Testing)
+- JUnit 
+- Refactoring 
+- GIT y Github 
+- Manejo de Excepciones 
+---
+## [Repaso](#)
+La aplicación mínima en Java necesita al menos una **Clase** y un método **main(String[] args)**.
+```java 
+public class HolaMundo {
+
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo");
+    }
+
+}
+```
+
+---
+## [Actualización Java 11](#)
+Desde Java11 es posible la ejecución directa sin compilar previamente.
+```bash 
+$ java HolaMundo.java 
+Hola Mundo 
+```
+Antes:
+```bash 
+$ javac HolaMundo.java 
+$ java HolaMundo
+Hola Mundo 
+```
+---
+## [Tipos de Datos](#)
+```java 
+boolean esLunes = true; // 1 bit
+short numeroEntero1 = 32767; // 16 bits
+int numeroEntero2 = 2147483647; // 32 bits
+long numeroEntero3 = 9223372036854775807L; // 64 bits
+float numeroDecimal = 3.4028235E38f; // 32 bits
+double numeroDecimal2 = 1.7976931348623157E308; // 64 bits
+char caracter = 'a'; // 16 bits
+String cadenaTexto = "Chile";
+String[] arrayNombres = {"Santiago", "Juan", "Roberto"};
+double[] arrayNotas = {4.5, 6.9, 3.9, 6.5};
+// para saber el valor mínimo y máximo utilice la propiedad:
+// MIN_VALUE y MAX_VALUE de cada WrapperClass 
+```
+--- 
+## [Herramientas Recomendadas](#)
+- JShell
+- Java Debugger 
+
+--- 
+## [Estructuras Condicionales: If else](#)
+```java
+String diaSemana 	= "Martes";
+String comida 		= "";
+
+if(diaSemana == "Lunes") {
+	comida = "porotos con riendas";
+} else if(diaSemana == "Martes") {
+	comida = "fideos con salsa";
+} else {
+	comida = "arroz con huevo";
+}
+
+System.out.println("Hoy vamos a comer "+comida);
+```
+--- 
+
+## [Estructuras Condicionales: Switch](#)
+```java
+String diaSemana 	= "Lunes";
+String comida 		= "";
+
+switch( diaSemana ) {
+	case "Lunes":		
+		comida = "porotos con riendas";
+		break;
+	case "Martes":
+		comida = "fideos con salsa";
+		break;
+	default:
+		comida = "arroz con huevo";
+}
+System.out.println("Hoy vamos a comer "+comida);
+```
+--- 
+## [Estructuras For Loop](#)
+```java
+for (inicialización variable; condición; incremento) {
+	// código a ser ejecutado 
+}
+```
+Ejemplo: 
+```java
+for (int i = 0; i < 10; i++) {
+	System.out.printf("Valor de i = %d %n", i);
+}
+```
+--- 
+## [For Loop - Array](#)
+```java
+String[] marcas = {"Suzuki", "Ford", "Mazda", "Toyota"};
+for(int i = 0; i < marcas.length; i++) {
+	System.out.printf("Marca = %s %n", marcas[i]);
+}
+```
+Variación for loop:
+```java
+for(String marca : marcas) {
+	System.out.printf("Marca = %s %n", marca );
+}
+```
+--- 
+## [Break y Continue](#)
+Ejemplo 1:
+```java[] 
+for (int i = 0; i < 10; i++) {
+	if (i == 4) {
+		break;
+	}
+	System.out.printf("i=%d %n", i);
+}
+```
+Ejemplo 2:
+```java[]
+for (int i = 0; i < 10; i++) {
+	if (i == 4) {
+		continue;
+	}
+	System.out.printf("i=%d %n", i);
+}
+```
+				    </textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.js" integrity="sha512-m6ShsCUzCQmgDHleTy2FbuzCPKnSOOypMBALE6LT/q858WxkGMJLajB5Obw+BT8C3mIIoBfEM5F+G5/Eemixfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/notes/notes.min.js" integrity="sha512-1D/hQT/6yIzQICAQCvGWV1x+85VZFQGZGcRE3P7f1/5b8bk3dvbaiOF2lLENEqr6lYQ0NZataWohlZQvblyxcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/markdown/markdown.min.js" integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
