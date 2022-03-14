@@ -1,6 +1,6 @@
 # Desafío 1 - Punto de Venta 
 
-El modesto almacén|kiosko|tienda XXXXXX dedicado a la venta de XXXXXX (a su preferencia) necesita desarrollar un software para poder registrar los productos que se comercializan y las ventas. Debido a los pocos recursos con se cuentan, se evalúa utilizar un computador antiguo en modalidad de consola. Adicionalmente el cliente necesita que se genere un reporte en formato CSV con las ventas del día.
+El modesto almacén|kiosko|tienda XXXXXX dedicado a la venta de XXXXXX (a su preferencia) necesita desarrollar un software para poder registrar los productos que se comercializan y las ventas realizadas. Debido a los pocos recursos con que se cuentan, se evalúa utilizar un computador antiguo en modalidad de consola. Adicionalmente el cliente necesita que se genere un reporte en formato CSV con las ventas del día.
 
 Se solicita utilizar:
 
