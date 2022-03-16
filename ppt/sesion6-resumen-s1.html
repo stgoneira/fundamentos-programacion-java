@@ -161,6 +161,33 @@ for (int i = 0; i < 10; i++) {
 	System.out.printf("i=%d %n", i);
 }
 ```
+--- 
+## [System.out.printf()](#)
+
+Un método para escribir una cadena de texto formateada según los argumentos. Ejemplo:
+
+```java[] 
+String nombre = "Juan";
+System.out.printf("Hola %s, bienvenido.", nombre);
+// resultado: Hola Juan, bienvenido.
+```
+
+```java[] 
+float nota 		= 6.5f;
+String nombre 	= "Santiago";
+System.out.printf("%s tu nota es %.1f.%n", nombre, nota);
+// resultado: Santiago tu nota es 6.5.\n
+```
+
+--- 
+## [Lo más usado: printf()](#)
+
+- **%s**: Si arg implementa Formattable, entonces arg.formatTo() es invocado. De otra manera, el resultado es obtenido invocando arg.toString()
+- **%d**: El resultado es formateado como un número entero.
+- **%f**: El resultado es formateado como un número decimal.
+- **%n**: El resultado es un salto de línea. 
+
+referencia: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Formatter.html#syntax
 				    </textarea>
 				</section>
 			</div>
