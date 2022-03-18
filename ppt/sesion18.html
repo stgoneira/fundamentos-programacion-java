@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Fundamentos Programación Java - Sesión 18</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.css" integrity="sha512-e3dnmFe5hH2bJx1MvUU3PFToGVQ2xykp/VGERCkuh4lTGMJ5QuxKFRIwix8DfnfkavwJiL6rehb9e1d6mFLwlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/theme/beige.min.css" integrity="sha512-TzNEhkjNeiWrW7MYy7MlzBqBxqD7Ho7HtFpcW0rAQW4OK8pwZ37fvHKKpJPAmUdHbUnmmKdGwhB5ulLWgQ/l0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-separator="---" data-markdown data-line-numbers>
+    				<textarea data-template>
+## [Sesión 18 - Fundamentos Programación Java](#)
+
+Santiago Neira
+---
+## [Clase Anterior](#)
+
+---
+## [Cascada vs Agile](#)
+![Cascada vs Agile](https://static.wixstatic.com/media/b24013_f7b6afe3a1c64cd58e619e96c3404b1b~mv2.png/v1/fit/w_720%2Ch_402%2Cal_c/file.png)
+---
+![Product Backlog](https://muyagile.com/wp-content/uploads/2019/02/Backlog-3-1024x963.png)
+---
+## [Historias de Usuario](#)
+![Historia de usuario](http://1.bp.blogspot.com/-47gU4ui_TBo/UXdXL3wGvRI/AAAAAAAACCM/fJ2pmOPPHQw/s1600/EstructuraHistoriaDeUsuarioTarjeta.jpg)
+---
+## [Tablero](#)
+![Tablero Kanban](https://web-static.wrike.com/cdn-cgi/image/width=700,format=auto,q=80/blog/content/uploads/2019/01/Scrum_vs_Kanban_Board_Building_Project_Plan_1.jpg)
+---
+## [Fecha y hora](#)
+```java[] 
+// Java8+
+// import java.time.LocalDate;
+LocalDate fecha = LocalDate.now();
+// jshell> 2022-03-18
+
+// import java.time.LocalDateTime;
+LocalDateTime fechaHora = LocalDateTime.now();
+// jshell> 2022-03-18T18:13:18.522027
+```
+---
+## [Date Math](#)
+```java[] 
+// Java8+
+LocalDate fechaActual = LocalDate.now();
+// jshell> 2022-03-18
+LocalDate unAnnoAtras = fechaActual.minusYears(1);
+// jshell> 2021-03-18
+LocalDate enUnMesMas = fechaActual.plusMonths(1);
+// jshell> 2022-04-18
+```
+---
+## [Formatear Fechas](#)
+```java[] 
+//import java.time.LocalDateTime;
+LocalDateTime fechaHoraActual = LocalDateTime.now();
+System.out.println( fechaHoraActual );
+
+// import java.time.format.DateTimeFormatter;
+DateTimeFormatter formateador = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+String fechaHoraFormateada = formateador.format( fechaHoraActual );
+System.out.println( fechaHoraFormateada );
+```
+---
+## [Fecha y hora](#)
+Documentación: 
+https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html
+				    </textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.js" integrity="sha512-m6ShsCUzCQmgDHleTy2FbuzCPKnSOOypMBALE6LT/q858WxkGMJLajB5Obw+BT8C3mIIoBfEM5F+G5/Eemixfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/notes/notes.min.js" integrity="sha512-1D/hQT/6yIzQICAQCvGWV1x+85VZFQGZGcRE3P7f1/5b8bk3dvbaiOF2lLENEqr6lYQ0NZataWohlZQvblyxcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/markdown/markdown.min.js" integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
