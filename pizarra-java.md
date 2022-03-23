@@ -1,17 +1,7 @@
 Fundamentos de Programación en Java
 ====================================
-
-Martes
-2022-03-22
-
-Ejercicio Geometría 
-Desarrollo de manera individual
-Revisión avances antes del BREAK
-Tiempo de entrega: dentro de la misma clase
-
-BREAK de 20:00 a 20:15 hrs 
-
-
+Miércoles
+2022-03-23
 
 Entrega de Trabajos
 ---------------------
@@ -28,6 +18,18 @@ Grupos de hasta 4 personas.
 
 - Ejercicio Actividad 3 - Venta Entradas: 2 Abril
 
+
+///////////////////////////////////////////
+
+Martes
+2022-03-22
+
+Ejercicio Geometría 
+Desarrollo de manera individual
+Revisión avances antes del BREAK
+Tiempo de entrega: dentro de la misma clase
+
+BREAK de 20:00 a 20:15 hrs 
 
 ///////////////////////////////////////////
 

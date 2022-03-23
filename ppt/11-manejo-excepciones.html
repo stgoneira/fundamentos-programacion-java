@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Manejo Excepciones - Fundamentos Programación Java</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.css" integrity="sha512-e3dnmFe5hH2bJx1MvUU3PFToGVQ2xykp/VGERCkuh4lTGMJ5QuxKFRIwix8DfnfkavwJiL6rehb9e1d6mFLwlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/theme/beige.min.css" integrity="sha512-TzNEhkjNeiWrW7MYy7MlzBqBxqD7Ho7HtFpcW0rAQW4OK8pwZ37fvHKKpJPAmUdHbUnmmKdGwhB5ulLWgQ/l0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-separator="---" data-markdown data-line-numbers>
+    				<textarea data-template>
+## [Fundamentos Programación Java](#)
+### Manejo de Excepciones
+
+[Santiago Neira](#)
+---
+## [Excepciones](#)
+- Las excepciones son [situaciones inesperadas](#) que pueden ocurrir en el programa 
+- Como intentar [leer datos](#) de un archivo, pero el archivo NO existe 
+- Como intentar [escribir datos](#) al disco, pero éste está lleno 
+- Como intentar [dividir](#) por 0 [(cero)](#)
+---
+## [Excepciones](#)
+¿Qué pasará acá?
+```java[] 
+public class Divisor {
+
+	public static void main(String[] args) {
+		int dividendo = 10;
+		int divisor   = 0;
+		int cociente  = dividendo / divisor;
+	}  
+}  
+```
+---
+## [Excepciones](#)
+Java lanzará una [Exception](#) llamada java.lang.ArithmeticException. 
+---
+## [Sintaxis Manejo Excepciones](#)
+```java[] 
+try {
+	// código que podría generar una excepción 
+} catch(TipoException1 te1) {
+	// código para manejar la exception 
+	// en el caso que sea del tipo TipoException1
+} catch(TipoException2 te2) {
+	// código para manejar la exception 
+	// en el caso que sea del tipo TipoException2
+} catch(Exception e) {
+	// código para manejar la exception 
+	// en el caso que no haya entrado en las anteriores 
+} finally {
+	// código que se ejecuta siempre
+	// hayan o no hayan excepciones 
+}
+
+```
+---
+## [Excepciones](#)
+¿Qué puedo hacer?
+```java[] 
+public class Divisor {
+    public static void main(String[] args) {
+        try {
+            int dividendo = 10;
+            int divisor   = 0;
+            int cociente  = dividendo / divisor;
+        } catch( ArithmeticException ae ) {
+            System.out.println("No puede dividir por cero.");
+        }
+    }
+}
+
+```
+
+---
+## [Lanzar Excepciones](#)
+```java[] 
+// throws indica el tipo de Exception que puede lanzar el método 
+public void setNombre(String nombre) throws Exception {
+	if(nombre == null) {
+		// la palabra clave throw lanza una instancia de
+		// algún tipo de Exception 
+		throw new Exception("El nombre no puede ser nulo.");
+	}
+	if(nombre.length() <= 2) {
+		throw new Exception("El nombre debe tener 2 o más caracteres.");
+	}
+	this.nombre = nombre;
+}
+```
+---
+## [Lanzar Excepciones](#)
+```java[] 
+public static void main(String[] args) {
+	ManejoExcepciones manejoExcepciones = new ManejoExcepciones();
+	try {
+		manejoExcepciones.setNombre("a");
+	} catch(Exception e) {
+		// en este caso e.getMessage() tendrá el valor: 
+		// El nombre debe tener 2 o más caracteres.
+		System.out.println( "Error: "+e.getMessage() );
+	}
+}
+```
+---
+## [Excepciones Personalizadas](#)
+```java[] 
+// archivo: ValorNuloException.java 
+class ValorNuloException extends Exception {}
+
+// archivo: ValorDemasiadoCortoException.java 
+class ValorDemasiadoCortoException extends Exception {}
+```
+---
+## [Excepciones Personalizadas](#)
+```java[]  
+public void setNombre(String nombre)
+	throws ValorNuloException, ValorDemasiadoCortoException {
+	if(nombre == null) {
+		throw new ValorNuloException();
+	}
+	if(nombre.length() < 2) {
+		throw new ValorDemasiadoCortoException();
+	}
+	this.nombre = nombre;
+}
+```
+---
+## [Excepciones Personalizadas](#)
+```java[]  
+public static void main(String[] args) {
+	ManejoExcepciones manejoExcepciones = new ManejoExcepciones();
+	try {
+		manejoExcepciones.setNombre(null);
+	} catch(ValorNuloException vne) {
+		System.out.println( "Error: Por favor entregue un valor, NO se aceptan valores nulos." );
+	} catch(ValorDemasiadoCortoException vdce) {
+		System.out.println( "Error: Escriba un nombre más largo." );
+	}
+}
+```
+				    </textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.js" integrity="sha512-m6ShsCUzCQmgDHleTy2FbuzCPKnSOOypMBALE6LT/q858WxkGMJLajB5Obw+BT8C3mIIoBfEM5F+G5/Eemixfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/notes/notes.min.js" integrity="sha512-1D/hQT/6yIzQICAQCvGWV1x+85VZFQGZGcRE3P7f1/5b8bk3dvbaiOF2lLENEqr6lYQ0NZataWohlZQvblyxcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/markdown/markdown.min.js" integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
