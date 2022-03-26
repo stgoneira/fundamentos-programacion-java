@@ -11,7 +11,7 @@ public class MakeIndex {
 
         File directorioActual               = new File(".");
         final String[] listadoArchivos      = directorioActual.list();
-        final List<String> noInteresan      = Arrays.asList( new String[]{"sesiones", "MakeIndex.java"} );
+        final List<String> noInteresan      = Arrays.asList( new String[]{"sesiones", "MakeIndex.java", "README.md"} );
         List<String> ppts                   = new ArrayList<>( Arrays.asList(listadoArchivos) );
         ppts.removeAll( noInteresan );
 

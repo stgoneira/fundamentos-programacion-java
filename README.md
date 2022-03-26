@@ -36,4 +36,3 @@ Sábados 09:00 a 12:00 hrs
 - [14-interfaces.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/14-interfaces.html) 
 - [15-trabajo-con-archivos.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/15-trabajo-con-archivos.html) 
 - [16-web-services.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/16-web-services.html) 
-- [README.md](https://stgoneira.github.io/fundamentos-programacion-java/ppt/README.md) 
