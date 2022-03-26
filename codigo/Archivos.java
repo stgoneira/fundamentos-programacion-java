@@ -1,12 +1,22 @@
 package codigo;
 
 import java.io.File;
+import java.util.Map;
+import java.util.Properties;
 
 public class Archivos {
     public static void main(String[] args) { 
         // carpetaHome();
         //archivoOCarpeta();
-        listadoHomeDir();
+        // listadoHomeDir();
+        //listadoPropiedades();
+    }
+
+    private static void listadoPropiedades() {
+        Properties props = System.getProperties();
+        for( Map.Entry<Object,Object> prop : props.entrySet() ) {
+            System.out.printf("Propiedad: %s Valor: %s %n", prop.getKey(), prop.getValue() );
+        }
     }
 
     private static void listadoHomeDir() {

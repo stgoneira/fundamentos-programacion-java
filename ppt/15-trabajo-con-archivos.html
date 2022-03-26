@@ -94,6 +94,19 @@ for( String archivo : listadoArchivos) {
 	System.out.printf("%s %n", archivo);
 }
 ```
+
+---
+## [Otras Propiedades](#)
+
+```java[] 
+// import java.util.Map;
+// import java.util.Properties;
+Properties props = System.getProperties();
+for( Map.Entry<Object,Object> prop : props.entrySet() ) {
+	System.out.printf("Propiedad: %s Valor: %s %n"
+		, prop.getKey(), prop.getValue() );
+}
+```
 				    </textarea>
 				</section>
 			</div>
