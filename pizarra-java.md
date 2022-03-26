@@ -1,19 +1,22 @@
 Fundamentos de Programación en Java
 ====================================
 
-Viernes
-2022-03-25 
+Sábado
+2022-03-26 
+
+Ejercicio 
+-----------
+Hacer que el Reporte en formato CSV se guarde en su carpeta home (c:\Users\miusuario), haciéndolo de manera dinámica, es decir, que si le entrega su programa a otro compañero(a) el programa no presente problemas. 
+
+Valide su ejercicio con un compañero. 
+
+BREAK 11:00 a 11:15 hrs 
 
 Para hoy 
 ---------------
-- Cómo escribir archivos
-- Packages 
-- Repaso Arrays 
-- Pruebas Unitarias 
-- GIT y Github 
+- Cómo trabajar con archivos
 - Revisión avances y ayuda proyectos 
 
-BREAK 20:01 a 20:16
 
 Entrega de Trabajos
 ---------------------
@@ -30,6 +33,22 @@ Grupos de hasta 4 personas.
 - Ejercicio Geometría (individual): 26 Marzo 
 
 - Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+///////////////////////////////////////////
+
+Viernes
+2022-03-25 
+
+Para hoy 
+---------------
+- Cómo escribir archivos
+- Packages 
+- Repaso Arrays 
+- Pruebas Unitarias 
+- GIT y Github 
+- Revisión avances y ayuda proyectos 
+
+BREAK 20:01 a 20:16
 
 ///////////////////////////////////////////
 Jueves
