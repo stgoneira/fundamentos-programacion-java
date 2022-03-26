@@ -8,6 +8,27 @@ public class TrabajoArchivos {
 
     public static void main(String[] args) {
         // acá invoque el método que desea ejecutar
+        crearArchivoCsvDinamico();
+    }
+
+    private static void crearArchivoCsvDinamico() {
+        String carpetaUsuario          = System.getProperty("user.home");
+        String nombreArchivo           = "reporte-20220326.csv";
+        String rutaCompletaArchivo     = carpetaUsuario + File.separator + nombreArchivo;
+        String contenidoArchivoReporte = generarContenidoArchivoCSV();
+
+        try {
+            FileWriter writer = new FileWriter( rutaCompletaArchivo );
+            System.out.printf("Escribiendo archivo: %s %n", rutaCompletaArchivo);
+            writer.write( contenidoArchivoReporte );
+            writer.close();
+        } catch(IOException ioe) {
+            // mensaje para el usuario
+            System.out.println("Hubo un problema al escribir el reporte.");
+            System.out.println("Contacte con el administrador.");
+
+            // Por implementar: generar archivo de log
+        }
     }
 
     private static void listarPropiedades() {

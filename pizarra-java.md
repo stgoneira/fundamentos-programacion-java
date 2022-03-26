@@ -6,9 +6,12 @@ Sábado
 
 Ejercicio 
 -----------
-Hacer que el Reporte en formato CSV se guarde en su carpeta home (c:\Users\miusuario), haciéndolo de manera dinámica, es decir, que si le entrega su programa a otro compañero(a) el programa no presente problemas. 
+Hacer que el Reporte en formato CSV se guarde en su carpeta home (ej: c:\Users\miusuario), haciéndolo de manera dinámica, es decir, que si le entrega su programa a otro compañero(a) el programa no presente problemas. 
 
 Valide su ejercicio con un compañero. 
+
+Break
+---------
 
 BREAK 11:00 a 11:15 hrs 
 

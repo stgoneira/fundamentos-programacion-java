@@ -107,6 +107,26 @@ for( Map.Entry<Object,Object> prop : props.entrySet() ) {
 		, prop.getKey(), prop.getValue() );
 }
 ```
+
+--- 
+## [Ruta Según S.O.](#)
+```java[] 
+// Sistemas tipo Windows
+// C:\Users\Santiago\archivo.txt - Windows
+
+// Sistemas Tipo UNIX
+// /home/santiago/archivo.txt - Linux
+// /Users/santiago - MacOS
+
+String carpetaUsuario = System.getProperty("user.home");
+String s = File.separator;
+String carpetaBase = carpetaUsuario + s + "reportes" + s;
+String nombreArchivo = "reporte-20220326.csv";
+String archivoFinal = carpetaBase + nombreArchivo;
+
+System.out.printf( "archivo: %s %n", archivoFinal );
+// archivo: C:\\Users\\Santiago\\reportes\\reporte-20220326.csv
+```
 				    </textarea>
 				</section>
 			</div>
