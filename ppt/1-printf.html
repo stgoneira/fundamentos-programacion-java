@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Collections - Fundamentos Programación Java</title>
+		<title>printf - Fundamentos Programación Java</title>
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.css" integrity="sha512-e3dnmFe5hH2bJx1MvUU3PFToGVQ2xykp/VGERCkuh4lTGMJ5QuxKFRIwix8DfnfkavwJiL6rehb9e1d6mFLwlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,84 +18,14 @@
 			<div class="slides">
 				<section data-separator="---" data-markdown data-line-numbers>
     				<textarea data-template>
-## [Fundamentos Programación Java](#)
-## Collections 
-Santiago Neira
+## [printf() - Fundamentos Programación Java](#)
+
+Santiago Neira 
 ---
-## [Collections](#)
-- Las colecciones son [estructuras de datos](#)
+## [Documentación](#)
 
-- Guardan [referencias](#) hacia otros objetos 
+https://docs.oracle.com/javase/8/docs/api/java/util/Formatter.html
 
-- Estos objetos son todos del [mismo tipo](#) 
-
----
-## [Tipos](#)
-- [***Collection:***](#) La interfaz raíz de la jerarquía de colecciones.
-
-- [***List:***](#) Una colección ordenada que puede contener elementos duplicados. 
-
-- [***Set:***](#) Una colección que [NO](#) contiene [duplicados](#).
-
-- [***Map:***](#) Asocia [claves](#) con [valores](#) y no puede contener claves duplicadas.
-
-- [***Queue:***](#) También conocidas como [colas](#). Ej: FIFO, LIFO, etc. 
-
----
-## [List: Algunas Implementaciones](#)
-- [***ArrayList:***](#) Lista [desincronizada](#), mejor rendimiento, pero no recomendada para programas que la comparten entre subprocesos. 
-
-- [***Vector:***](#) Colección [sincronizada](#), no tan buen rendimiento, recomendada para programas que la comparten entre subprocesos. 
-
----
-## [Set: Algunas Implementaciones](#)
-- [***HashSet:***](#) La implementación de mejor rendimiento, pero no garantiza ningún orden. 
-
-- [***TreeSet:***](#) Es más lento que HashSet, pero ordena los elementos. 
-
-- [***LinkedHashSet:***](#) Almacena los elementos en función del orden de inserción, un poco más lenta que HashSet. 
----
-## [Map: Algunas Implementaciones](#)
-- [***HashMap:***](#) XXXXX. 
-
-- [***TreeMap:***](#) XXXXX. 
-
-- [***LinkedHashMap:***](#) XXXXX. 
----
-## [Queue: Algunas Implementaciones](#)
-- [***PriorityQueue:***](#) XXXXXXXXXXXXXX. 
----
-## [Ejemplo](#)
-```java[] 
-String[] coloresArr = {"rojo", "blanco", "verde", "azul", "blanco"};
-System.out.println( String.join(",", coloresArr) );
-// rojo,blanco,verde,azul,blanco 
-
-List<String> coloresList = Arrays.asList( coloresArr );
-System.out.printf("Colores List: %s%n", coloresList);
-// Colores List: [rojo, blanco, verde, azul, blanco]
-
-Set<String> coloresSet = new HashSet<>( coloresList );
-System.out.printf("Colores Set: %s%n", coloresSet);
-//Colores Set: [rojo, blanco, verde, azul]
-```
----
-## [Queue](#)
-- Ordena los elementos en base a su orden natural 
-- Utiliza el método compareTo() 
-- O mediante un objeto Comparator 
----
-## [PriorityQueue](#)
-- offer() 
-- poll() 
-- peek() 
-- clear() 
-- size() 
----
-## [Lectura y Referencias](#)
-- https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
-
-- https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html
 				    </textarea>
 				</section>
 			</div>

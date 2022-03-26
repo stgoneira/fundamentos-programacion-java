@@ -1,7 +1,19 @@
 Fundamentos de Programación en Java
 ====================================
-Miércoles
-2022-03-23
+
+Viernes
+2022-03-25 
+
+Para hoy 
+---------------
+- Cómo escribir archivos
+- Packages 
+- Repaso Arrays 
+- Pruebas Unitarias 
+- GIT y Github 
+- Revisión avances y ayuda proyectos 
+
+BREAK 20:01 a 20:16
 
 Entrega de Trabajos
 ---------------------
@@ -12,12 +24,38 @@ Grupos de hasta 4 personas.
 - Ejercicio Tickets Soporte : 19 Marzo
 
 - Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+
 - Desafío 2 - Por determinar caso - Evaluación Portafolio Módulo 4 (12 de abril)
 
 - Ejercicio Geometría (individual): 26 Marzo 
 
 - Ejercicio Actividad 3 - Venta Entradas: 2 Abril
 
+///////////////////////////////////////////
+Jueves
+2022-03-24 
+
+BREAK 20:23 hasta 20:38 hrs 
+
+Para hoy 
+---------------
+- Repaso Arrays 
+- GIT y Github 
+- Cómo escribir archivos
+- Revisión avances y ayuda proyectos 
+
+///////////////////////////////////////////
+
+Miércoles
+2022-03-23
+
+BREAK 20:00 a 20:15 
+
+Para hoy 
+---------------
+- Manejo de Excepciones 
+- Repaso Pruebas Unitarias 
+- Avance de Proyectos 
 
 ///////////////////////////////////////////
 
