@@ -1,0 +1,10 @@
+@startuml superclase 
+class Object {}
+
+class Number extends Object {}
+
+class Integer extends Number {}
+class Long extends Number {}
+class Float extends Number {}
+class Double extends Number {}
+@enduml 
