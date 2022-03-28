@@ -26,7 +26,7 @@ Herencia y Polimorfismo
 
 ---
 ## [Herencia](#)
-- Es una forma de [reutilización](#) de software
+- Es una forma de [reutilización](#) de código 
 
 - Se crean nuevas o modificadas capacidades [(especialización)](#)
 
@@ -35,10 +35,96 @@ Herencia y Polimorfismo
 - Y a la derivada como [**subclase**](#) 
 
 ---
-## [Herencia en UML](#)
+## [Herencia en UML y Java](#)
+
+![superclase](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/herencia/superclase.puml)
+
+```java[] 
+// archivo: SuperClase.java 
+public class SuperClase {}
+
+// archivo: SubClase.java 
+public class SubClase extends SuperClase {}
+```
+
+---
+## [Herencia](#)
+
+- La [superclase directa](#) es la superclase a partir de la cual la subclase hereda de manera directa en forma explícita 
+
+- Una [superclase indirecta](#) es cualquier clase arriba en la [jerarquía](#) de la superclase directa 
+
+- En [Java](#) la jerarquía de clases comienza con la clase [Object](#) 
+
+---
+## [Superclase Indirecta en UML](#)
+
+![superclaseindirecta](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/herencia/superclase-indirecta.puml)
+
+---
+## [Jerarquía Ejemplo Java Object](#)
+
+![superclaseindirecta](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/herencia/java-object.puml)
+				    
+---
+<!-- .slide: data-background-iframe="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Number.html" -->
+## [Documentación Clase Number](#)
 
 
-				    </textarea>
+--- 
+## [Restricciones de Java en la Herencia](#)
+
+- Una clase solo puede [**heredar**](#) solo de [**una clase**](#)
+
+- A diferencia de otros lenguajes como C++ 
+
+- Para obtener algo similar a la [herencia múltiple](#), en Java puede utilizar las [**interfaces**](#) 
+
+--- 
+## [Visibilidad Métodos y Variables](#)
+- [**public**](#): es accesible desde cualquier parte 
+
+- [**protected**](#): es accesible en esta clase y cualquier subclase 
+
+- [**private**](#): es accesible sólo en esta clase 
+
+--- 
+## [Final](#)
+Podemos usar la palabra clase final para evitar que una clase herede de esta
+
+```java[] 
+// NoHeredable.java 
+public final class NoHeredable {} 
+
+// OtraClase.java 
+public class OtraClase extends NoHeredable {}
+// error: cannot inherit from final NoHeredable
+```
+
+--- 
+## [Abstract](#)
+
+- Una clase abstracta no puede ser instanciada (new)
+
+- Pero puede ser padre de otra clase
+
+```java[] 
+public class Herencia3 {
+    public static void main(String[] args) {
+		Hijo hijo = new Hijo();		
+		// error: Abstracta is abstract; cannot be instantiated
+		//Abstracta abstracta = new Abstracta();
+	}
+}
+// una clase abstracta no es instanciable 
+// solo se permite heredar de ella 
+abstract class Abstracta { }
+
+class Hijo extends Abstracta { }
+```
+
+
+					</textarea>
 				</section>
 			</div>
 		</div>

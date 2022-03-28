@@ -11,7 +11,7 @@
 - [10-packages.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/10-packages.html) 
 - [11-manejo-excepciones.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/11-manejo-excepciones.html) 
 - [12-colecciones.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/12-colecciones.html) 
-- [13-herencia-polimorfismo.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/13-herencia-polimorfismo.html) 
+- [13-herencia.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/13-herencia.html) 
 - [14-interfaces.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/14-interfaces.html) 
 - [15-trabajo-con-archivos.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/15-trabajo-con-archivos.html) 
 - [16-web-services.html](https://stgoneira.github.io/fundamentos-programacion-java/ppt/16-web-services.html) 
