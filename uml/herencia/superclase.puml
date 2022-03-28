@@ -1,0 +1,9 @@
+@startuml superclase 
+class SuperClase {
+
+}
+
+class SubClase extends SuperClase {
+    
+}
+@enduml 
