@@ -1,7 +1,7 @@
 @startuml superclase 
 abstract class Figura {
-    +calcularArea():double 
-    +calcularPerimetro():double
+    + {abstract} calcularArea():double 
+    + {abstract} calcularPerimetro():double
 }
 
 class Rectangulo extends Figura {}
