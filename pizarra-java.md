@@ -1,6 +1,40 @@
 Fundamentos de Programación en Java
 ====================================
 
+Lunes
+2022-03-28 
+
+BREAK de 20:14 a 20:29hrs
+
+Clase anterior
+-----------------
+- Trabajo con archivos 
+
+Para hoy
+----------
+- Repaso 
+- Herencia y Polimorfismo 
+- Interfaces 
+- Ayuda y revisión trabajos 
+
+Entrega de Trabajos
+---------------------
+Grupos de hasta 4 personas.
+
+- Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
+
+- Ejercicio Tickets Soporte : 19 Marzo
+
+- Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+
+- Desafío 2 - Por determinar caso - Evaluación Portafolio Módulo 4 (12 de abril)
+
+- Ejercicio Geometría (individual): 26 Marzo 
+
+- Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+///////////////////////////////////////////
+
 Sábado
 2022-03-26 
 
