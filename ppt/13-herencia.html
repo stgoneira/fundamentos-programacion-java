@@ -16,16 +16,15 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-separator="---" data-separator-vertical="===" data-markdown data-line-numbers>
+				<section data-separator="^---$" data-separator-vertical="^===$" data-markdown data-line-numbers>
     				<textarea data-template>
 ## [Fundamentos Programación Java](#)
 Herencia y Polimorfismo
 
 [Santiago Neira](#)
 
-
 ---
-## [Herencia](#)
+## [Herencia (extends)](#)
 - Es una forma de [reutilización](#) de código 
 
 - Se crean nuevas o modificadas capacidades [(especialización)](#)
@@ -71,7 +70,7 @@ public class SubClase extends SuperClase {}
 ## [Documentación Clase Number](#)
 
 
---- 
+---
 ## [Restricciones de Java en la Herencia](#)
 
 - Una clase puede solo [**heredar**](#) de [**una**](#)
@@ -80,7 +79,7 @@ public class SubClase extends SuperClase {}
 
 - Para obtener algo similar a la [herencia múltiple](#), en Java puede utilizar las [**interfaces**](#) 
 
---- 
+---
 ## [Visibilidad Métodos y Variables](#)
 - [**public**](#): es accesible desde cualquier parte 
 
@@ -88,7 +87,84 @@ public class SubClase extends SuperClase {}
 
 - [**private**](#): es accesible sólo en esta clase 
 
---- 
+---
+## [Ejemplo Herencia y Visibilidad](#)
+
+```java[] 
+public class Empleado {
+	private String nombre;
+	private String rut;	
+	protected int sueldo;
+	
+	public Empleado(
+			String nombre, 
+			String rut, 
+			int sueldo) {
+		this.nombre = nombre;
+		this.rut    = rut;
+		this.sueldo = sueldo; 
+	}
+
+	public String getNombre(){
+		return this.nombre;
+	}
+
+// continuar la implementación ...
+}
+```
+<!-- .element: style="float: left; width: 45%;"-->
+
+```java[] 
+public class Docente extends Empleado {
+	private int horasTrabajadas;
+
+	public Docente(
+			String nombre,
+			String rut,
+			int sueldo,
+			int horasTrabajadas
+				) {
+		super(nombre, rut, sueldo);
+		this.horasTrabajadas = horasTrabajadas;
+	}
+
+	// no relevante para el ejemplo 
+	private void sop(String t) {
+		System.out.println(t);
+	}
+
+	public void mostrarLiquidacion(){
+		// NO puedo llamar directamente 
+		// a this.nombre porque es private 
+		sop( this.getNombre() );
+		// a sueldo si, pq es protected 
+		sop( "Sueldo:" + this.sueldo );
+		// por implementar ...
+	}
+	
+}
+
+```
+<!-- .element: style="float: right; width: 55%;"-->
+
+---
+## [Notas del Ejemplo Herencia y Visibilidad](#)
+- La palabra clave [***extends***](#) indica cuál será la [***superclase***](#).
+- La palabra clave [***super***](#) hace referencia a la [***superclase***](#).
+
+---
+## [Notas del Ejemplo Herencia y Visibilidad](#)
+- No es bueno por diseño incorporar los System.out.println() en este tipo de clases que no sean de interfaz. 
+- Se hizo para simplificar el ejemplo y mostrar de manera sencilla lo que sucede. 
+- Para simplicidad se omitieron constructores, getters y setters
+
+---
+## [Actividad](#)
+
+Copie el ejemplo y modifique la visibilidad de los atributos de la superclase. Comente, discuta y pregunte si tiene dudas respecto al comportamiento o la sintaxis de la aplicación en relación a la herencia.
+
+[Tiempo esperado](#): 15-20 minutos 
+---
 ## [Final](#)
 Podemos usar la palabra clase final para evitar que una clase herede de esta
 
@@ -101,26 +177,38 @@ public class OtraClase extends NoHeredable {}
 // error: cannot inherit from final NoHeredable
 ```
 
---- 
+---
 ## [Abstract](#)
 
-- Una clase abstracta no puede ser instanciada (new)
+- Una clase abstracta [***NO puede ser instanciada***](#) (new)
 
-- Pero puede ser padre de otra clase
+- Pero [***puede ser padre***](#) de otra clase
+
+---
+## [Abstract](#)
+
+![claseabstracta](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/herencia/abstract-example.puml)
+
+---
+## [Abstract](#)
 
 ```java[] 
-public class Herencia3 {
+// Figura.java 
+abstract class Figura { }
+// Rectangulo.java 
+class Rectangulo extends Figura { }
+// Circulo.java 
+class Circulo extends Figura { }
+
+// EjemploClasesAbstractas.java 
+public class EjemploClasesAbstractas {
     public static void main(String[] args) {
-		Hijo hijo = new Hijo();		
-		// error: Abstracta is abstract; cannot be instantiated
-		//Abstracta abstracta = new Abstracta();
+		Circulo c = new Circulo(); // si se puede instanciar 
+
+		// error: Figura is abstract; cannot be instantiated
+		//Figura figura = new Figura();
 	}
 }
-// una clase abstracta no es instanciable 
-// solo se permite heredar de ella 
-abstract class Abstracta { }
-
-class Hijo extends Abstracta { }
 ```
 
 
