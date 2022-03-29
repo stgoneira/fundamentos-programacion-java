@@ -1,0 +1,7 @@
+@startuml superclase 
+abstract class Figura {}
+
+class Rectangulo extends Figura {}
+class Triangulo extends Figura {}
+class Circulo extends Figura {}
+@enduml 
