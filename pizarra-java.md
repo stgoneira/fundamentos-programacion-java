@@ -1,17 +1,15 @@
 Fundamentos de Programación en Java
 ====================================
 
-Miércoles 
-2022-03-30
+Jueves 
+2022-03-31
 
 Para hoy 
 ----------- 
+- Repaso de herencia 
+- Interfaces 
 - Revisión avances trabajos 
 - Ayuda con avances de trabajos 
-
-BREAK
--------
-De 20:07 hasta 20:22hrs 
 
 Entrega de Trabajos
 ---------------------
@@ -33,6 +31,20 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 - Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////
+
+Miércoles 
+2022-03-30
+
+Para hoy 
+----------- 
+- Revisión avances trabajos 
+- Ayuda con avances de trabajos 
+
+BREAK
+-------
+De 20:07 hasta 20:22hrs 
 
 Entrega de Trabajos
 ---------------------
