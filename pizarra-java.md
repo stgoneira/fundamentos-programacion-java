@@ -1,21 +1,38 @@
 Fundamentos de Programación en Java
 ====================================
 
-Lunes
-2022-03-28 
+Miércoles 
+2022-03-30
 
-BREAK de 20:14 a 20:29hrs
+Para hoy 
+----------- 
+- Revisión avances trabajos 
+- Ayuda con avances de trabajos 
 
-Clase anterior
------------------
-- Trabajo con archivos 
+BREAK
+-------
+De 20:07 hasta 20:22hrs 
 
-Para hoy
-----------
-- Repaso 
-- Herencia y Polimorfismo 
-- Interfaces 
-- Ayuda y revisión trabajos 
+Entrega de Trabajos
+---------------------
+Grupos de hasta 4 personas.
+
+IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github) en la plataforma para las evidencias.
+
+- Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
+
+- Ejercicio Tickets Soporte : 19 Marzo
+
+- Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+
+- Desafío 2 - Por determinar caso - Evaluación Portafolio Módulo 4 (12 de abril)
+
+- Ejercicio Geometría (individual): 26 Marzo 
+
+- Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+- Trabajo Práctico Final M4 (13 abril)Tarea
+El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
 
 Entrega de Trabajos
 ---------------------
@@ -32,6 +49,40 @@ Grupos de hasta 4 personas.
 - Ejercicio Geometría (individual): 26 Marzo 
 
 - Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+///////////////////////////////////////////
+
+Martes 
+2022-03-29 
+
+BREAK 20:40 a 20:55hrs 
+
+Actividad
+-----------
+1. Termine la implementación de las clases Circulo y Rectangulo. 
+2. Cree una instancia de cada una en la clase donde está el método main() e invoque los métodos calcularArea() y calcularPerimetro()
+
+Para hoy
+---------
+- Herencia
+- Ayuda y revisión trabajos 
+
+
+
+///////////////////////////////////////////
+
+Lunes
+2022-03-28 
+
+BREAK de 20:14 a 20:29hrs
+
+Clase anterior
+-----------------
+- Trabajo con archivos 
+
+Para hoy
+----------
+- Repaso 
 
 ///////////////////////////////////////////
 
@@ -54,22 +105,6 @@ Para hoy
 - Cómo trabajar con archivos
 - Revisión avances y ayuda proyectos 
 
-
-Entrega de Trabajos
----------------------
-Grupos de hasta 4 personas.
-
-- Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
-
-- Ejercicio Tickets Soporte : 19 Marzo
-
-- Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
-
-- Desafío 2 - Por determinar caso - Evaluación Portafolio Módulo 4 (12 de abril)
-
-- Ejercicio Geometría (individual): 26 Marzo 
-
-- Ejercicio Actividad 3 - Venta Entradas: 2 Abril
 
 ///////////////////////////////////////////
 

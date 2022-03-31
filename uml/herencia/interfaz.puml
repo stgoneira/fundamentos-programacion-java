@@ -1,0 +1,10 @@
+@startuml superclase 
+interface Figura {
+    + {abstract} calcularArea():double 
+    + {abstract} calcularPerimetro():double
+}
+
+class Rectangulo implements Figura {}
+class Triangulo implements Figura {}
+class Circulo implements Figura {}
+@enduml 
