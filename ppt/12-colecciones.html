@@ -16,7 +16,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-separator="---" data-markdown data-line-numbers>
+				<section data-separator="^---$" data-separator-vertical="^===$" data-markdown data-line-numbers>
     				<textarea data-template>
 ## [Fundamentos Programación Java](#)
 ## Collections 
@@ -52,6 +52,16 @@ Santiago Neira
 
 - [***Vector:***](#) Colección [sincronizada](#), no tan buen rendimiento, recomendada para programas que la comparten entre subprocesos. 
 
+===
+```java[] 
+List<String> nombres = new ArrayList<>();
+nombres.add("Juan");
+// soporta nulls
+nombres.add(null);
+nombres.add("Pedro");
+
+System.out.println(nombres);
+```
 ---
 ## [Set: Algunas Implementaciones](#)
 - [***HashSet:***](#) La implementación de mejor rendimiento, pero no garantiza ningún orden. 
