@@ -1,8 +1,46 @@
 Fundamentos de Programación en Java
 ====================================
 
+Viernes 
+2022-04-01 
+
+Para hoy 
+----------- 
+- API Collection Java 
+
+Break
+-------
+
+
+Entrega de Trabajos
+---------------------
+Grupos de hasta 4 personas.
+
+IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github) en la plataforma para las evidencias.
+
+1. Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
+
+2. Ejercicio Tickets Soporte : 19 Marzo
+
+3. Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+
+4. Desafío 2 - Desarrollo de Actividad 5,6 y7 - Evaluación Portafolio Módulo 4 (12 de abril)
+
+5. Ejercicio Geometría (individual): 26 Marzo 
+
+6. Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+7. Ejercicio Actividad 4 - Venta Entradas c/ Precio y Ubicación: 9 Abril
+
+8. Trabajo Práctico Final M4 (13 abril)Tarea
+El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////
+
 Jueves 
 2022-03-31
+
+BREAK de 20:25 a 20:40hrs
 
 Para hoy 
 ----------- 
@@ -17,19 +55,19 @@ Grupos de hasta 4 personas.
 
 IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github) en la plataforma para las evidencias.
 
-- Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
+1. Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
 
-- Ejercicio Tickets Soporte : 19 Marzo
+2. Ejercicio Tickets Soporte : 19 Marzo
 
-- Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+3. Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
 
-- Desafío 2 - Por determinar caso - Evaluación Portafolio Módulo 4 (12 de abril)
+4. Desafío 2 - Por determinar caso - Evaluación Portafolio Módulo 4 (12 de abril)
 
-- Ejercicio Geometría (individual): 26 Marzo 
+5. Ejercicio Geometría (individual): 26 Marzo 
 
-- Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+6. Ejercicio Actividad 3 - Venta Entradas: 2 Abril
 
-- Trabajo Práctico Final M4 (13 abril)Tarea
+7. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
 
 ///////////////////////////////////////////
