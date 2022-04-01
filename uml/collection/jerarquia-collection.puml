@@ -4,7 +4,7 @@ interface Collection implements Iterable {}
 
 interface List implements Collection {}
 interface Set implements Collection {}
-interface Map implements Collection {}
+interface Map {}
 interface Queue implements Collection {}
 
 @enduml 
