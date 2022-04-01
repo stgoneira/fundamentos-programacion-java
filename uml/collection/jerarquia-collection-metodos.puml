@@ -1,0 +1,69 @@
+@startuml superclase 
+
+interface Iterable {
+    forEach()
+    iterator() 
+    spliterator()  
+}
+
+interface Collection implements Iterable {
+    add()
+    addAll()
+    clear() 
+    contains()
+    containsAll()
+    equals() 
+    hashCode() 
+    isEmpty() 
+    remove() 
+    removeAll() 
+    size() 
+    toArray() 
+}
+
+interface List implements Collection {
+    get() 
+    indexOf() 
+    lastIndexOf() 
+    set() 
+    sort() 
+    subList() 
+}
+interface Set implements Collection {}
+
+interface Queue implements Collection {
+    element() 
+    offer() 
+    peek() 
+    poll() 
+}
+
+interface Map {
+    clear() 
+    compute() 
+    computeIfAbsent() 
+    computeIfPresent() 
+    containsKey() 
+    constainsValue() 
+    copyOf() 
+    entry() 
+    entrySet() 
+    equals() 
+    forEach() 
+    get() 
+    getOrDefault() 
+    hashCode() 
+    isEmpty() 
+    keySet() 
+    merge() 
+    put() 
+    putAll() 
+    putIfAbsent() 
+    remove() 
+    replace() 
+    replaceAll() 
+    size() 
+    values() 
+}
+
+@enduml 

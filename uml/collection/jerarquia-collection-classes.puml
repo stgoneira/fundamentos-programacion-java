@@ -1,0 +1,25 @@
+@startuml superclase 
+
+interface Collection {}
+
+interface List implements Collection {}
+interface Set implements Collection {}
+interface Map implements Collection {}
+interface Queue implements Collection {}
+
+class ArrayList implements List {}
+class Vector implements List {}
+
+class HashSet implements Set {}
+class TreeSet implements Set {}
+class LinkedHashSet implements Set {}
+
+class HashMap implements Map {}
+class TreeMap implements Map {}
+class LinkedHashMap implements Map {}
+
+class LinkedList implements Queue {}
+class PriorityQueue implements Queue {}
+class ArrayDeque implements Queue {}
+
+@enduml 

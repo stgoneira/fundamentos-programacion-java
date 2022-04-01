@@ -1,6 +1,6 @@
 @startuml superclase 
 
-interface Collection {}
+interface Collection implements Iterable {}
 
 interface List implements Collection {}
 interface Set implements Collection {}
