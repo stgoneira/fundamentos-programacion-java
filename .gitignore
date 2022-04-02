@@ -1,6 +1,8 @@
+bin
 libros
 prueba
 out 
 *.bak
 *.class
 ~$*.pptx
+.~*.pptx

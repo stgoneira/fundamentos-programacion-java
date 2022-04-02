@@ -1,16 +1,16 @@
 Fundamentos de Programación en Java
 ====================================
 
-Viernes 
-2022-04-01 
+Sábado 
+2022-04-02 
+
+BREAK de 11:08 hasta 11:23 hrs 
 
 Para hoy 
 ----------- 
 - API Collection Java 
-
-Break
--------
-
+- Trabajo Proyectos 
+- Recomendaciones metodología
 
 Entrega de Trabajos
 ---------------------
@@ -34,6 +34,21 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////
+
+Viernes 
+2022-04-01 
+
+Para hoy 
+----------- 
+- API Collection Java 
+
+Break
+-------
+De 20:17 a 20:32hrs 
+
+
 
 ///////////////////////////////////////////
 

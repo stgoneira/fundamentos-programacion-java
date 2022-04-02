@@ -16,11 +16,12 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-separator="---" data-markdown data-line-numbers>
+				<section data-separator="^---$" data-separator-vertical="^===$" data-markdown data-line-numbers>
     				<textarea data-template>
 ## [Fundamentos Programación Java](#)
 ## Collections 
 Santiago Neira
+
 ---
 ## [Collections](#)
 - Las colecciones son [estructuras de datos](#)
@@ -29,7 +30,12 @@ Santiago Neira
 
 - Estos objetos son todos del [mismo tipo](#) 
 
----
+===
+## [Tipos](#)
+
+![colecciones](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/collection/jerarquia-collection.puml)
+
+===
 ## [Tipos](#)
 - [***Collection:***](#) La interfaz raíz de la jerarquía de colecciones.
 
@@ -41,6 +47,17 @@ Santiago Neira
 
 - [***Queue:***](#) También conocidas como [colas](#). Ej: FIFO, LIFO, etc. 
 
+===
+## [Algunas Clases](#)
+
+![collection-classes](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/collection/jerarquia-collection-classes.puml)
+
+===
+## [Algunos Métodos](#)
+
+![collection-methods](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://stgoneira.github.io/fundamentos-programacion-java/uml/collection/jerarquia-collection-metodos.puml)
+
+
 ---
 ## [List: Algunas Implementaciones](#)
 - [***ArrayList:***](#) Lista [desincronizada](#), mejor rendimiento, pero no recomendada para programas que la comparten entre subprocesos. 
@@ -50,6 +67,19 @@ Santiago Neira
 - [***Stack:***](#) Implementación de lista LIFO 
 
 - [***LinkedList:***](#) Colección [desincronizada](#), implementa las interfaces List y Deque.
+
+===
+## [ArrayList](#)
+```java[] 
+// podemos hacer esto gracias al Polimorfismo 
+List<String> nombres = new ArrayList<>();
+nombres.add("Juan");
+// soporta nulos 
+nombres.add(null);
+nombres.add("Pedro");
+
+System.out.println(nombres);
+```
 
 ---
 ## [Set: Algunas Implementaciones](#)
