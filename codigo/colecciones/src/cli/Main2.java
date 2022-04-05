@@ -1,4 +1,4 @@
-//package cli;
+package cli;
 
 import java.util.Arrays;
 import java.util.Iterator;
