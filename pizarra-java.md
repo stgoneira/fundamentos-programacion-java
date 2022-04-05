@@ -1,16 +1,20 @@
 Fundamentos de Programación en Java
 ====================================
 
-Sábado 
-2022-04-02 
+Lunes 
+2022-04-04  
 
-BREAK de 11:08 hasta 11:23 hrs 
+BREAK 20:13 a 20:28
 
 Para hoy 
 ----------- 
-- API Collection Java 
+- API Collection
+	* Sets: HashSet y TreeSet   
+	* SortedSets
+	* Interfaces Anónimas 
+	* Interfaces Comparable y Comparator 
 - Trabajo Proyectos 
-- Recomendaciones metodología
+
 
 Entrega de Trabajos
 ---------------------
@@ -34,6 +38,19 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////
+
+Sábado 
+2022-04-02 
+
+BREAK de 11:08 hasta 11:23 hrs 
+
+Para hoy 
+----------- 
+- API Collection Java 
+- Trabajo Proyectos 
+- Recomendaciones metodología
 
 ///////////////////////////////////////////
 

@@ -8,6 +8,11 @@ public class Terrestre extends Transporte {
 		super(tipoMotor, capacidadCarga, capacidadPasajeros);
 		this.cantRuedas = cantRuedas;
 	}
+	
+	public Terrestre(String tipoMotor, double capacidadCarga, int capacidadPasajeros, int cantRuedas, int avaluo) {
+		super(tipoMotor, capacidadCarga, capacidadPasajeros, avaluo);
+		this.cantRuedas = cantRuedas;
+	}
 
 	// GETTERS y SETTERS 
 	public int getCantRuedas() {
