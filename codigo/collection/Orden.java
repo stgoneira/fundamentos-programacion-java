@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Locale;
 import java.util.NavigableSet;
 import java.util.SortedSet;
@@ -10,6 +13,39 @@ public class Orden {
         // para que el separador de miles sea un punto 
         Locale.setDefault(new Locale("es", "CL"));
 
+        ordenConLists();
+    }
+
+    public static void ordenConLists() {
+        List<Persona> personas = new ArrayList<>();
+        Persona arnaldo  = new Persona(9855322, '9', "Arnaldo Torres");
+        Persona carolina = new Persona(13345987, '1', "Carolina Vargas");
+        personas.add( new Persona(12345678, '5', "Juan Perez") );
+        personas.add( new Persona(8765432, 'k', "Ramon Soto") );
+        personas.add( carolina );
+        personas.add( new Persona(5498712, '2', "Julieta Becerra") );
+        personas.add( arnaldo );                
+        personas.add( new Persona(20322666, '1', "Jorge Luna") );
+
+        titulo("Lista Normal", 20);
+        personas.forEach(System.out::println);
+
+        titulo("Orden con Collection.sort()", 30);
+        Collections.sort(personas, Comparator.comparing(Persona::getRut));        
+        personas.forEach(System.out::println);
+
+        titulo("Orden DESC con Collection.reverse()", 35);
+        Collections.reverse(personas);
+        personas.forEach(System.out::println);
+
+        System.out.printf("%n%n");
+    }
+
+    public static void titulo(String titulo, int cantidadSubrayado){
+        System.out.printf("%n%n%s %n%s%n%n", titulo, "=".repeat(cantidadSubrayado));
+    }
+
+    public static void ordenConSets(){
         //Exception in thread "main" java.lang.ClassCastException: class Persona cannot be cast to class java.lang.Comparable
         //SortedSet<Persona> personas = new TreeSet<>( );
 
