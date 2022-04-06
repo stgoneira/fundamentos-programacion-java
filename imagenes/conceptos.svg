@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="conceptos.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.6534231"
+     inkscape:cx="323.87354"
+     inkscape:cy="137.29093"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#808000;stroke-width:0.141231"
+       id="rect49"
+       width="183.8979"
+       height="23.60108"
+       x="15.064521"
+       y="246.12668" />
+    <rect
+       style="fill:#501616;stroke-width:0.265054"
+       id="rect153"
+       width="183.42006"
+       height="27.95439"
+       x="15.542366"
+       y="269.72772" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="60.035587"
+       y="287.57571"
+       id="text1993"><tspan
+         sodipodi:role="line"
+         id="tspan1991"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="60.035587"
+         y="287.57571">Sistema Operativo</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="42.327286"
+       y="261.89224"
+       id="text1993-3"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="42.327286"
+         y="261.89224">Máquina Virtual Java (JVM)</tspan></text>
+    <rect
+       style="fill:#ff0000;stroke-width:0.428919"
+       id="rect4780"
+       width="183.89789"
+       height="15.95362"
+       x="15.064521"
+       y="230.17303" />
+    <rect
+       style="fill:#6c5d53;stroke-width:0.410978"
+       id="rect4780-3"
+       width="65.905746"
+       height="40.869473"
+       x="130.52228"
+       y="132.47028" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.881477"
+       y="242.16505"
+       id="text1993-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="74.881477"
+         y="242.16505">Archivo.class</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="148.13722"
+       y="154.44145"
+       id="text1993-3-7-5"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="148.13722"
+         y="154.44145">javac</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 150.81781,174.39673 -17.1073,56.05132"
+       id="path9764" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="150.20772"
+       y="206.53606"
+       id="text12036"><tspan
+         sodipodi:role="line"
+         id="tspan12034"
+         style="stroke-width:0.264583"
+         x="150.20772"
+         y="206.53606">genera</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.21692px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.105423"
+       x="53.956089"
+       y="153.20935"
+       id="text12036-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan12034-1-7"
+         style="stroke-width:0.105423"
+         x="53.956089"
+         y="153.20935">instrucciones</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.105423"
+         x="53.956089"
+         y="158.4805"
+         id="tspan17746">más instrucciones</tspan></text>
+    <g
+       id="g13120"
+       transform="matrix(0.53024129,0.22942142,-0.22942142,0.53024129,122.41353,172.52654)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 48.56154,60.980713 9.194987,23.265633"
+         id="path13009" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 66.951514,60.980713 57.756527,84.246346"
+         id="path13009-2" />
+    </g>
+    <g
+       id="g17326"
+       transform="translate(0,121.70835)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:5.62279px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14057"
+         x="55.968922"
+         y="13.787473"
+         id="text12036-9"><tspan
+           sodipodi:role="line"
+           id="tspan12034-1"
+           style="stroke-width:0.14057"
+           x="55.968922"
+           y="13.787473">Archivo.java</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         id="rect13144"
+         width="51.954494"
+         height="58.426617"
+         x="47.942703"
+         y="7.6660328" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 100.32601,161.21244 31.1642,-3.92803"
+       id="path19611"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:#00ff00;stroke:#000000;stroke-width:0.305434;stroke-opacity:1"
+       id="rect19772"
+       width="196.89027"
+       height="154.45622"
+       x="6.5796361"
+       y="-33.716213"
+       ry="15.593898" />
+    <rect
+       style="fill:#ff6600;stroke:#000000;stroke-width:0.0545334;stroke-opacity:1"
+       id="rect19772-3"
+       width="57.509022"
+       height="16.857109"
+       x="20.044003"
+       y="47.865749"
+       ry="1.7018936" />
+    <rect
+       style="fill:#550000;stroke:#000000;stroke-width:0.0943724;stroke-opacity:1"
+       id="rect19772-3-1"
+       width="101.06506"
+       height="28.726553"
+       x="86.437897"
+       y="42.089321"
+       ry="2.9002326" />
+    <rect
+       style="fill:#800080;stroke:#000000;stroke-width:0.174569;stroke-opacity:1"
+       id="rect19772-3-6"
+       width="171.48953"
+       height="57.928589"
+       x="17.791739"
+       y="-19.023563"
+       ry="5.8484688" />
+    <rect
+       style="fill:#786721;stroke:#000000;stroke-width:0.0600643;stroke-opacity:1"
+       id="rect19772-3-6-0"
+       width="44.160618"
+       height="26.631365"
+       x="24.510338"
+       y="0.64571404"
+       ry="2.6887016" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="22.10561"
+       y="-23.506519"
+       id="text12036-0"><tspan
+         sodipodi:role="line"
+         id="tspan12034-9"
+         style="stroke-width:0.264583"
+         x="22.10561"
+         y="-23.506519">Java</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="25.090633"
+       y="58.303989"
+       id="text1993-3-7-5-6"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="25.090633"
+         y="58.303989">variables</tspan></text>
+    <rect
+       style="fill:#ac9d93;stroke:#000000;stroke-width:0.136155;stroke-opacity:1"
+       id="rect19772-3-2"
+       width="165.74323"
+       height="36.46064"
+       x="19.332706"
+       y="74.669418"
+       ry="3.681066" />
+    <rect
+       style="fill:#808000;stroke:#000000;stroke-width:0.0606748;stroke-opacity:1"
+       id="rect19772-3-2-7"
+       width="77.777267"
+       height="15.429668"
+       x="29.767828"
+       y="91.164246"
+       ry="1.5577792" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="42.859375"
+       y="85.066864"
+       id="text1993-3-7-5-6-28"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-9"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="42.859375"
+         y="85.066864">estructuras de control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.49317px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.21233"
+       x="91.591003"
+       y="50.425373"
+       id="text1993-3-7-5-6-8"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-7"
+         style="fill:#ffffff;stroke-width:0.21233"
+         x="91.591003"
+         y="50.425373">tipos datos primitivos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.37908px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.134478"
+       x="86.534683"
+       y="59.964336"
+       id="text1993-3-7-5-6-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-7-2"
+         style="fill:#ffffff;stroke-width:0.134478"
+         x="86.534683"
+         y="59.964336">int, short, char, float, double, boolean...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.90866px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.222717"
+       x="23.74589"
+       y="-6.4794402"
+       id="text1993-3-7-5-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-6"
+         style="fill:#ffffff;stroke-width:0.222717"
+         x="23.74589"
+         y="-6.4794402">Programación Orientada a Objetos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.90866px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.222717"
+       x="30.198877"
+       y="10.111649"
+       id="text1993-3-7-5-6-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-6-3"
+         style="fill:#ffffff;stroke-width:0.222717"
+         x="30.198877"
+         y="10.111649">Clases</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.85168px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.121292"
+       x="33.867622"
+       y="17.242952"
+       id="text1993-3-7-5-6-2-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-6-3-7"
+         style="fill:#ffffff;stroke-width:0.121292"
+         x="33.867622"
+         y="17.242952">atributos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.85168px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.121292"
+       x="34.428383"
+       y="23.390377"
+       id="text1993-3-7-5-6-2-2-4-8"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-6-3-7-4"
+         style="fill:#ffffff;stroke-width:0.121292"
+         x="34.428383"
+         y="23.390377">métodos</tspan></text>
+    <rect
+       style="fill:#008000;stroke:#000000;stroke-width:0.0631971;stroke-opacity:1"
+       id="rect19772-3-6-0-7"
+       width="48.893124"
+       height="26.628231"
+       x="86.841232"
+       y="0.24917087"
+       ry="2.6883852" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.90866px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.222717"
+       x="88.294868"
+       y="10.771872"
+       id="text1993-3-7-5-6-2-2-5"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-6-3-9"
+         style="fill:#ffffff;stroke-width:0.222717"
+         x="88.294868"
+         y="10.771872">Interfaces</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.37289px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.159323"
+       x="96.622147"
+       y="24.329311"
+       id="text1993-3-7-5-6-2-2-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-6-3-9-9"
+         style="fill:#ffffff;stroke-width:0.159323"
+         x="96.622147"
+         y="24.329311">métodos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.40409px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.235103"
+       x="36.354404"
+       y="102.02663"
+       id="text1993-3-7-5-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-61"
+         style="fill:#ffffff;stroke-width:0.235103"
+         x="36.354404"
+         y="102.02663">condicionales</tspan></text>
+    <rect
+       style="fill:#ff0000;stroke:#000000;stroke-width:0.0463752;stroke-opacity:1"
+       id="rect19772-3-2-7-2"
+       width="45.394707"
+       height="15.443968"
+       x="118.02519"
+       y="91.956444"
+       ry="1.5592229" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:8.74502px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.218626"
+       x="127.73495"
+       y="102.32525"
+       id="text1993-3-7-5-6-3-9"><tspan
+         sodipodi:role="line"
+         id="tspan1991-6-5-6-0-61-3"
+         style="fill:#ffffff;stroke-width:0.218626"
+         x="127.73495"
+         y="102.32525">bucles</tspan></text>
+  </g>
+</svg>
