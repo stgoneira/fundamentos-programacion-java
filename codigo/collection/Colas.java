@@ -19,6 +19,11 @@ public class Colas {
         System.out.printf("FIFO: %s %n", cola.pollFirst() );
         System.out.printf("LIFO: %s %n", cola.pollLast() );
         System.out.println( cola );
+
+        // Beginning Java 8 - Language Features p. 557 
+        // You should use the ArrayDeque
+        // as a Deque implementation if you are using a Deque as a LIFO queue (or a stack). The LinkedList implementation
+        // performs better if you use a Deque as a FIFO queue (or simply as a Queue
     }
 
     public static void colaAtiendeClientesMayorSaldo() {
