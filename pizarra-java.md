@@ -1,20 +1,21 @@
 Fundamentos de Programación en Java
 ====================================
 
-Lunes 
-2022-04-04  
-
-BREAK 20:13 a 20:28
+Martes 
+2022-04-05
 
 Para hoy 
 ----------- 
-- API Collection
-	* Sets: HashSet y TreeSet   
-	* SortedSets
-	* Interfaces Anónimas 
-	* Interfaces Comparable y Comparator 
-- Trabajo Proyectos 
-
+- Repaso API Collection
+- List
+- Set 
+- equals() y hashCode() 
+- Conjuntos: unión, intersección y diferencia 
+- Locale y separador de miles 
+- NavigableSet 
+- Collection.sort() - forma corta
+- Orden descendente 
+- ListIterator 
 
 Entrega de Trabajos
 ---------------------
@@ -38,6 +39,22 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////  
+
+Lunes 
+2022-04-04  
+
+BREAK 20:13 a 20:28
+
+Para hoy 
+----------- 
+- API Collection
+	* Sets: HashSet y TreeSet   
+	* SortedSets
+	* Interfaces Anónimas 
+	* Interfaces Comparable y Comparator 
+- Trabajo Proyectos 
 
 ///////////////////////////////////////////
 

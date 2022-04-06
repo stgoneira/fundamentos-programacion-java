@@ -10,24 +10,27 @@ public class Main2 {
 	public static void main(String[] args) {
 		List<String> lenguajes = Arrays.asList("PHP", "Java", "JS", "Ruby", "C#");
 		
-		Iterator<String> iteradorNormal 	= lenguajes.iterator();		
-		
+		Iterator<String> iteradorNormal 	= lenguajes.iterator();
+				
 		while( iteradorNormal.hasNext() ) {
 			String lenguaje = iteradorNormal.next();
 			System.out.printf("Lenguaje = %s %n", lenguaje);
 		}
 		
-		System.out.println("=====================================");
+		System.out.println("=====================================");		
 		
 		ListIterator<String> iteradorLista 	=  lenguajes.listIterator();
-		while( iteradorLista.hasNext() ) {			
+		while( iteradorLista.hasNext() ) {
 			String lenguajeAnterior = "";
 			if( iteradorLista.hasPrevious() ) {
-				lenguajeAnterior = String.format("| Anterior = %s" ,iteradorLista.previous());
-				if( iteradorLista.hasNext() ) iteradorLista.next();
+				lenguajeAnterior = String.format("lenguaje anterior = %s", iteradorLista.previous());
+				if( iteradorLista.hasNext() ) {
+					iteradorLista.next();
+				}
 			}
-			String lenguaje = iteradorLista.next();
-			System.out.format("Lenguaje = %s %s %n", lenguaje, lenguajeAnterior);
+			
+			String lenguaje = String.format( "Lenguaje = %s", iteradorLista.next() );
+			System.out.printf("%s | %s %n", lenguaje, lenguajeAnterior);
 		}
 	}
 
