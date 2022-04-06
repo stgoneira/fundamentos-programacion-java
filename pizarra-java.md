@@ -4,18 +4,21 @@ Fundamentos de Programación en Java
 Martes 
 2022-04-05
 
+BREAK de 20:13 a 20:28hrs
+
 Para hoy 
 ----------- 
 - Repaso API Collection
 - List
 - Set 
 - equals() y hashCode() 
-- Conjuntos: unión, intersección y diferencia 
+- ListIterator
 - Locale y separador de miles 
+- Conjuntos: unión, intersección y diferencia 
 - NavigableSet 
 - Collection.sort() - forma corta
 - Orden descendente 
-- ListIterator 
+ 
 
 Entrega de Trabajos
 ---------------------

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -15,6 +16,9 @@ import sort.OrdenTransporteByCapacidadCargaDesc;
 public class MainTransporte {
 
 	public static void main(String[] args) {
+		// i18n == "Internationalization"
+		//Locale.setDefault( new Locale("en", "US") );
+		Locale.setDefault( new Locale("es", "CL") );
 		
 		List<Transporte> activos = new ArrayList<>();
 		activos.add( new Automovil(2000, 7900000) );
@@ -24,7 +28,11 @@ public class MainTransporte {
 		
 		// Orden Artifical (Interface Comparator) 
 		Collections.sort(activos, new OrdenTransporteByCapacidadCargaDesc());
-		activos.forEach( System.out::println );
+		//activos.forEach( System.out::println );
+		
+		for(Transporte t : activos) {
+			System.out.printf("Avaluo: %,d %n", t.getAvaluo());
+		}
 		
 		/*
 		 * Orden Natural (Interface Comparable) 
