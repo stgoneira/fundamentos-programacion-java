@@ -1,24 +1,18 @@
 Fundamentos de Programación en Java
 ====================================
 
-Martes 
-2022-04-05
+Miércoles 
+2022-04-06
 
-BREAK de 20:13 a 20:28hrs
+BREAK 20:16 a 20:31 hrs 
 
 Para hoy 
------------ 
-- Repaso API Collection
-- List
-- Set 
-- equals() y hashCode() 
-- ListIterator
-- Locale y separador de miles 
-- Conjuntos: unión, intersección y diferencia 
-- NavigableSet 
-- Collection.sort() - forma corta
-- Orden descendente 
- 
+------------
+- Revisión Conceptos Java 
+- Colas (FIFO y LIFO) 
+- Mapas 
+- Avances en trabajos 
+
 
 Entrega de Trabajos
 ---------------------
@@ -42,6 +36,27 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////  
+
+Martes 
+2022-04-05
+
+BREAK de 20:13 a 20:28hrs
+
+Para hoy 
+----------- 
+- Repaso API Collection
+- List
+- Set 
+- equals() y hashCode() 
+- ListIterator
+- Locale y separador de miles 
+- Conjuntos: unión, intersección y diferencia 
+- NavigableSet 
+- Collection.sort() - forma corta
+- Orden descendente 
+ 
 
 ///////////////////////////////////////////  
 
