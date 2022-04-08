@@ -1,18 +1,17 @@
 Fundamentos de Programación en Java
 ====================================
 
-Miércoles 
-2022-04-06
+Jueves 
+2022-04-07
 
-BREAK 20:16 a 20:31 hrs 
+BREAK 19:41 hasta 19:56 hrs
+
 
 Para hoy 
 ------------
-- Revisión Conceptos Java 
-- Colas (FIFO y LIFO) 
 - Mapas 
+- Patrones GRASP y GOF 
 - Avances en trabajos 
-
 
 Entrega de Trabajos
 ---------------------
@@ -36,6 +35,21 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+
+///////////////////////////////////////////  
+Miércoles 
+2022-04-06
+
+BREAK 20:16 a 20:31 hrs 
+
+Para hoy 
+------------
+- Revisión Conceptos Java 
+- Colas (FIFO y LIFO) 
+- Mapas 
+- Avances en trabajos 
+
 
 ///////////////////////////////////////////  
 

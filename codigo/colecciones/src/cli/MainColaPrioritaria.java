@@ -21,6 +21,14 @@ public class MainColaPrioritaria {
 		mostrarLechesEnInventario(inventario);		
 		// devuelve la más proxima a vencer 
 		Producto leche = inventario.remove();
+
+		// si la leche que sacamos del estante está vencida
+		// debería sacar una nueva 
+		LocalDate fechaActual = LocalDate.now();
+		if( leche.getVencimiento().isBefore( fechaActual ) ) {
+			// leche vencida, saco una nueva 
+			leche = inventario.remove();
+		}
 		System.out.printf("Sacando del estante la leche que vence %s", leche.getVencimiento());
 		mostrarLechesEnInventario(inventario);
 		
