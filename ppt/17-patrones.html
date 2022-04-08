@@ -16,17 +16,86 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-separator="---" data-markdown data-line-numbers>
+				<section data-separator="^---$" data-separator-vertical="^===$" data-markdown data-line-numbers>
     				<textarea data-template>
 ## [Fundamentos Programación Java](#)
-Patrones Diseño
+### Patrones de Diseño
 
-Santiago Neira 
+[Santiago Neira](#)
+
 ---
+## [Proceso de Análisis y Diseño](#)
+### [en programación Orientada a Objetos](#)
+Según Craig Larman 
+===
+## [Frase del día](#)
+
+"owning a hammer doesn't make one an architect" 
+
+===
+## [El Proceso](#)
+
+1. Definir los casos de uso 
+
+2. Definir el modelo de dominio 
+
+3. Definir los diagramas de interacción 
+
+4. Definir los diagramas de clases 
+
+===
+## [Extractos de Larman](#)
+
+During object-oriented analysis there is an emphasis on finding and describing
+the objectsor conceptsin the problem domain. For example, in the case of the flight
+information system, some of the concepts include Plane, Flight, and Pilot.
+
+During object-oriented design (or simply, object design) there is an emphasis on
+defining software objects and how they collaborate to fulfill the requirements. For
+example, a Plane software object may have a tailNumber attribute and a
+getFlightHistory method (see Figure 1.2).
+
+===
+## [El Proceso](#)
+
+Note that a domain model is not a description of software objects; it is a
+visualization of the concepts or mental models of a real-world domain. Thus, it has
+also been called a conceptual object model.
+
+(Larman, 2005, Capítulo 1) 
+
+===
+## [1. Definir Casos de Uso](#)
+
+Play a Dice Game: Player requests to roll the dice. System presents results:
+If the dice face value totals seven, player wins; otherwise, player loses.
+
+===
+## [2. Modelo de Dominio](#)
+
+![Modelo de Dominio](../imagenes/larman/dice-game-domain-model.png)
+
+===
+## [3. Definir Diagramas de Interacción](#)
+
+![Modelo de Dominio](../imagenes/larman/dice-game-sequence.png)
+
+===
+## [4. Definir los diagramas de clases](#)
+
+![Modelo de Dominio](../imagenes/larman/dice-game-class-diagram.png)
+
+
+===
+## [Referencias](#)
+
+Larman, C. (2005). Applying Uml and patterns: An introduction to object-oriented analysis and design and iterative development, 3rd Edition. Addison Wesley Professional. 
+
+===
 ## [Recursos](#)
 
 - [Patrones Diseño (Video Español)](https://www.youtube.com/watch?v=UfEeb_sfOOo) 
-- Design Patterns: Elements of Reusable Object-Oriented Software (1994 - ISBN: 0-201-63361-2) (Libro en Inglés)
+
 
 
 				    </textarea>
