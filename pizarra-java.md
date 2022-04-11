@@ -1,16 +1,14 @@
 Fundamentos de Programación en Java
 ====================================
 
-Sábado 
-2022-04-09
-Sesión 30 de 37
+Lunes 
+2022-04-11
+Sesión 31 de 37
 
 Para hoy 
-------------
-- Patrón de Solución 
-- Avances en trabajos 
-
-BREAK 10:30 a 10:45hrs 
+----------
+- JavaDoc 
+- Avance trabajos 
 
 Entrega de Trabajos
 ---------------------
@@ -34,6 +32,21 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////  
+
+Sábado 
+2022-04-09
+Sesión 30 de 37
+
+Para hoy 
+------------
+- Patrón de Solución 
+- Avances en trabajos 
+
+BREAK 10:30 a 10:45hrs 
+
+
 
 
 ///////////////////////////////////////////  

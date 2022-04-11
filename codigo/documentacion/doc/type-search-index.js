@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"facturacion","l":"Boleta"},{"p":"facturacion","l":"Factura"}];updateSearchResults();
