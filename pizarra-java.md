@@ -1,16 +1,52 @@
 Fundamentos de Programación en Java
 ====================================
 
-Jueves 
-2022-04-07
-
-BREAK 19:41 hasta 19:56 hrs
-
+Sábado 
+2022-04-09
+Sesión 30 de 37
 
 Para hoy 
 ------------
-- Mapas 
-- Patrones GRASP y GOF 
+- Patrón de Solución 
+- Avances en trabajos 
+
+BREAK 10:30 a 10:45hrs 
+
+Entrega de Trabajos
+---------------------
+Grupos de hasta 4 personas.
+
+IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github) en la plataforma para las evidencias.
+
+1. Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
+
+2. Ejercicio Tickets Soporte : 19 Marzo
+
+3. Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+
+4. Desafío 2 - Desarrollo de Actividad 5,6 y 7 - Evaluación Portafolio Módulo 4 (12 de abril)
+
+5. Ejercicio Geometría (individual): 26 Marzo 
+
+6. Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+7. Ejercicio Actividad 4 - Venta Entradas c/ Precio y Ubicación: 9 Abril
+
+8. Trabajo Práctico Final M4 (13 abril)Tarea
+El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+
+///////////////////////////////////////////  
+
+Viernes 
+2022-04-08 
+
+BREAK 20:30 a 20:45hrs
+
+Para hoy 
+------------
+- Proceso de Larman (GRASP) 
+- MVC 
 - Avances en trabajos 
 
 Entrega de Trabajos
@@ -25,7 +61,7 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 3. Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
 
-4. Desafío 2 - Desarrollo de Actividad 5,6 y7 - Evaluación Portafolio Módulo 4 (12 de abril)
+4. Desafío 2 - Desarrollo de Actividad 5,6 y 7 - Evaluación Portafolio Módulo 4 (12 de abril)
 
 5. Ejercicio Geometría (individual): 26 Marzo 
 
@@ -36,6 +72,19 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
 
+///////////////////////////////////////////  
+
+Jueves 
+2022-04-07
+
+BREAK 19:41 hasta 19:56 hrs
+
+
+Para hoy 
+------------
+- Mapas 
+- Patrones GRASP y GOF 
+- Avances en trabajos 
 
 ///////////////////////////////////////////  
 Miércoles 

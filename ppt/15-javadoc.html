@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Fundamentos Programación Java - Sesión 12</title>
+		<title>JavaDoc - Fundamentos Programación Java</title>
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.css" integrity="sha512-e3dnmFe5hH2bJx1MvUU3PFToGVQ2xykp/VGERCkuh4lTGMJ5QuxKFRIwix8DfnfkavwJiL6rehb9e1d6mFLwlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,16 +24,16 @@
 
 ---
 ## [Qué es Javadoc](#)
-- Es un programa para generar documentación sobre una API 
+- Es un programa para [generar documentación](#) sobre una API 
 
-- La documentación que se genera es en formato HTML 
+- La documentación que se genera es en [formato HTML](#) 
 
-- Las descripciones se generar a partir de bloques especiales de comentarios (Javadoc comment)
+- Las descripciones se generar a partir de bloques especiales de comentarios ([Javadoc comment](#))
 
 ===
 ## [Qué es Javadoc](#)
 
-- Los comentarios JavaDoc a diferencia de un comentario normal comienzan con doble asterisco ej: 
+- Los comentarios JavaDoc a diferencia de un comentario normal comienzan con [doble asterisco](#) ej: 
 
 ```java[] 
 // comentario regular de 1 línea 
@@ -49,15 +49,25 @@
 ```
 
 ===
+## [Para qué sirve](#)
+- Para compartir con el resto una explicación profunda del qué, por qué y cómo trabajan nuestras clases e interfaces 
+
+- Para nosotros mismos conocer nuestras decisiones y diseño de nuestra API 
+
+===
 ## [Ejemplo](#)
 
 ```java[] 
 /** 
-@author Santiago Neira 
-La clase Prueba sirve para mostrar ejemplos durante la clase 
+* La clase Prueba sirve para mostrar ejemplos durante la clase 
+* 
+* @author Santiago Neira 
 */ 
 public class Prueba {}
 ```
+===
+
+<!-- .slide: data-background-iframe="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" -->
 
 ---
 ## [Tipos de JavaDoc](#)
@@ -66,6 +76,22 @@ public class Prueba {}
 
 - Comentarios a nivel de [Miembros (atributos o métodos)](#)
 
+===
+## [JavaDoc Tags](#)
+- @author (clases e interfaces)
+- @param (métodos y constructores)
+- @return (métodos)
+- @throws (métodos)
+- @exception (sinónimo de @throws)
+
+===
+## [JavaDoc Tags](#)
+- @version (clases e interfaces)
+- @see 
+- @since
+- @serial 
+- @deprecated 
+
 ---
 ## [Generar Documentación Eclipse](#)
 1. Menú **File > Export** 
@@ -73,12 +99,17 @@ public class Prueba {}
 3. Configurar según necesitemos y finalizar 
 
 ---
-## [Generar por Terminal](#)
+## [JavaDoc por Terminal](#)
 
 ```bash 
 > javadoc -d carpeta-destino src/*.java 
 ```
+
+---
+## [Referencias](#)
+
 - https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html 
+
 - https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html 
 				    </textarea>
 				</section>
