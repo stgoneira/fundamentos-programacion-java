@@ -19,105 +19,67 @@
 				<section data-separator="^---$" data-separator-vertical="^===$" data-markdown data-line-numbers>
     				<textarea data-template>
 ## [Fundamentos Programación Java](#)
-## Inicio en Java 
+## JavaDoc 
 [Santiago Neira](#)
 
 ---
-## [Qué es Java](#)
-- Lenguaje de Programación 
+## [Qué es Javadoc](#)
+- Es un programa para generar documentación sobre una API 
 
-- Máquina Virtual (JVM)
+- La documentación que se genera es en formato HTML 
 
-- Conjunto de Biblioteca o APIs 
-
-===
-## [Java](#)
-
-![Entorno Java](https://www.viralpatel.net/app/uploads/2008/12/java-program-execution.png)
-
----
-## [Instalación Java](#)
-
-- Importante entender que existe:
-	* [JDK (Java Development Kit):](#) sirve para desarrollar programas y ejecutarlos 
-	* [JRE (Java Runtime Environment):](#) sirve solo para ejecutar programas 
+- Las descripciones se generar a partir de bloques especiales de comentarios (Javadoc comment)
 
 ===
-## [Instalación Java](#)
-- Existen [varias JDKs](#) disponibles que cumplen la especificación: 
-	* OpenJDK (implementación de referencia)
-	* Oracle JDK 
-	* JDKs (azul.com)
-	* entre otras 
+## [Qué es Javadoc](#)
 
-===
-## [Versión Instalada](#)
-
-```bash 
-> java -version 
-java version "17.0.2" 2022-01-18 LTS
-Java(TM) SE Runtime Environment (build 17.0.2+8-LTS-86)
-Java HotSpot(TM) 64-Bit Server VM (build 17.0.2+8-LTS-86, mixed mode, sharing)
-```
-
----
-## [Proceso de Trabajo](#)
-
-1. Crear archivo .java
-2. Compilar con javac
-3. Ejecutar con java 
-
-===
-## [Ej: HolaMundo.java](#)
+- Los comentarios JavaDoc a diferencia de un comentario normal comienzan con doble asterisco ej: 
 
 ```java[] 
-/* 
- archivo: HolaMundo.java
- definición de la clase HolaMundo 
+// comentario regular de 1 línea 
+
+/*
+* comentario regular 
+* multilínea 
 */ 
-public class HolaMundo {
 
-	// Método main() es el que se ejecuta. 
-	// void significa que el método NO devuelve ningun valor 
-	// recibe como parámetro un array de Strings 
-    public static void main(String[] args) {
-		// envía el mensaje "Hola Mundo" a la consola 
-        System.out.println("Hola Mundo");
-    }
-
-}
+/** 
+* Comentario JavaDoc 
+*/ 
 ```
 
 ===
-## [Compilación](#)
-1. Abrir una venta de CMD o PowerShell
-2. Con el comando ***cd*** ir a la carpeta donde está el código fuente 
-3. Ejecutar javac sobre el archivo para compilar y generar un archivo ***.class*** 
+## [Ejemplo](#)
 
-```bash 
-> cd c:\mi-proyecto-donde-esta-el-codigo-fuente 
-
-> javac HolaMundo.java 
-```
-===
-## [Ejecución](#)
-1. Ingrese en la ventana de CMD o PowerShell dentro de la carpeta de su proyecto. 
-
-2. Luego ejecute el programa ***java*** colocando sólo el nombre del archivo sin la extensión 
-```bash 
-> java HolaMundo
-Hola Mundo 
+```java[] 
+/** 
+@author Santiago Neira 
+La clase Prueba sirve para mostrar ejemplos durante la clase 
+*/ 
+public class Prueba {}
 ```
 
 ---
-## [Entornos](#)
-- Los ejemplos de este curso serán ejecutados en una Interfaz de Línea de Comandos(CLI)
-- Ejemplo CMD, PowerShell o Bash 
-- Pero Java puede funcionar en muchos entornos distintos como:
-	* Web 
-	* Graphical User Interface (GUI)
-	* Dispositivos móviles 
-	* Entre otros 
+## [Tipos de JavaDoc](#)
+
+- Comentarios a nivel de [Clase](#) 
+
+- Comentarios a nivel de [Miembros (atributos o métodos)](#)
+
+---
+## [Generar Documentación Eclipse](#)
+1. Menú **File > Export** 
+2. Seleccionar la carpeta **Java** y luego **Javadoc** y Siguiente (next)
+3. Configurar según necesitemos y finalizar 
+
+---
+## [Generar por Terminal](#)
+
+```bash 
+> javadoc -d carpeta-destino src/*.java 
+```
+- https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html 
+- https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html 
 				    </textarea>
 				</section>
 			</div>
