@@ -1,14 +1,37 @@
 Fundamentos de Programación en Java
 ====================================
 
-Martes
-2022-04-12
-Sesión 32 de 37
+Miércoles 
+2022-04-13
+Sesión 33 de 37
+
+REAK de 20:01 a 20:16hrs
 
 Para hoy 
 ----------
-- Validaciones 
+- GUI en Java (Swing)
 - Avance Trabajos 
+
+Actividad GUI - 1.1
+------------------
+1. Instalar WindowBuilder en Eclipse 
+2. Primer proyecto Cálculo área y perímetro de un rectángulo (solo 1 vista) 
+3. Segundo proyecto - con varias vistas y un menú para cálculo de área de un rectángulo y de un círculo 
+
+Actividad GUI - 1.2
+------------------
+Implemente el botón calcular perímetro 
+
+Actividad GUI - 2.1
+------------------
+Acá ventana con barra de menú y varias vistas.
+
+Barra Menú:
+- Archivo
+	+ SALIR 
+- Cálculos
+	+ Rectángulo 
+	+ Círculo 
 
 Entrega de Trabajos
 ---------------------
@@ -33,6 +56,18 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
 
+///////////////////////////////////////////  
+
+Martes
+2022-04-12
+Sesión 32 de 37
+
+BREAK de 20:10 a 20:25hrs 
+
+Para hoy 
+----------
+- Validaciones 
+- Avance Trabajos 
 
 ///////////////////////////////////////////  
 
