@@ -1,6 +1,56 @@
 Fundamentos de Programación en Java
 ====================================
 
+Jueves  
+2022-04-14
+Sesión 34 de 37
+
+BREAK de 20:14 a 20:29hrs 
+
+Para hoy 
+----------
+- Trabajo con Bases de Datos 
+- Avance Trabajos 
+
+Actividad BD
+---------------
+1. Creación de cuenta e instancia de PostgreSQL en plataforma elephantsql.com 
+
+2. Descargar el Driver JDBC en jdbc.postgresql.org
+
+3. Instalar PgAdmin4 pgadmin.org (Opcional)
+
+4. Instalar el soporte para BD en Eclipse (Opcional)
+
+5. Crear proyecto de Java y agregar el JAR de JDBC de PostgreSQL al Build PATH 
+
+6. Crear código Java para recuperar los datos desde la tabla alumnos
+
+Entrega de Trabajos
+---------------------
+Grupos de hasta 4 personas.
+
+IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github) en la plataforma para las evidencias.
+
+1. Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
+
+2. Ejercicio Tickets Soporte : 19 Marzo
+
+3. Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
+
+4. Desafío 2 - Desarrollo de Actividad 5,6 y 7 - Evaluación Portafolio Módulo 4 (12 de abril)
+
+5. Ejercicio Geometría (individual): 26 Marzo 
+
+6. Ejercicio Actividad 3 - Venta Entradas: 2 Abril
+
+7. Ejercicio Actividad 4 - Venta Entradas c/ Precio y Ubicación: 9 Abril
+
+8. Trabajo Práctico Final M4 (13 abril)Tarea
+El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////  
+
 Miércoles 
 2022-04-13
 Sesión 33 de 37
@@ -32,29 +82,6 @@ Barra Menú:
 - Cálculos
 	+ Rectángulo 
 	+ Círculo 
-
-Entrega de Trabajos
----------------------
-Grupos de hasta 4 personas.
-
-IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github) en la plataforma para las evidencias.
-
-1. Subir TXT con repositorio Github de apuntes y ejercicios realizados en clases: 12 Marzo
-
-2. Ejercicio Tickets Soporte : 19 Marzo
-
-3. Desafío 1 - Punto de Venta: 23 Marzo - Evaluación Portafolio Módulo 4 (12 de abril)
-
-4. Desafío 2 - Desarrollo de Actividad 5,6 y 7 - Evaluación Portafolio Módulo 4 (12 de abril)
-
-5. Ejercicio Geometría (individual): 26 Marzo 
-
-6. Ejercicio Actividad 3 - Venta Entradas: 2 Abril
-
-7. Ejercicio Actividad 4 - Venta Entradas c/ Precio y Ubicación: 9 Abril
-
-8. Trabajo Práctico Final M4 (13 abril)Tarea
-El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
 
 ///////////////////////////////////////////  
 
