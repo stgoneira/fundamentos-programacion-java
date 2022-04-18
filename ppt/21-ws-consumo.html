@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Consumo WS - Fundamentos Programación Java</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reset.min.css" integrity="sha512-Mjxkx+r7O/OLQeKeIBCQ2yspG1P5muhAtv/J+p2/aPnSenciZWm5Wlnt+NOUNA4SHbnBIE/R2ic0ZBiCXdQNUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.css" integrity="sha512-e3dnmFe5hH2bJx1MvUU3PFToGVQ2xykp/VGERCkuh4lTGMJ5QuxKFRIwix8DfnfkavwJiL6rehb9e1d6mFLwlg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/theme/beige.min.css" integrity="sha512-TzNEhkjNeiWrW7MYy7MlzBqBxqD7Ho7HtFpcW0rAQW4OK8pwZ37fvHKKpJPAmUdHbUnmmKdGwhB5ulLWgQ/l0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/monokai.min.css" integrity="sha512-z8wQkuDRFwCBfoj7KOiu1MECaRVoXx6rZQWL21x0BsVVH7JkqCp1Otf39qve6CrCycOOL5o9vgfII5Smds23rg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-separator="^---$" data-separator-vertical="^===$" data-markdown data-line-numbers>
+    				<textarea data-template>
+## [Fundamentos Programación Java](#)
+## Consumo WS  
+[Santiago Neira](#)
+
+---
+## [Que es una API](#)
+- Es una sigla en inglés que se Refiere a [**A**](#)plication [**P**](#)rogramming [**I**](#)nterface 
+- Es palabras simples es el lugar donde [2 o más componentes](#), sistemas, actores u otro elemento [interactúa](#) 
+- Es una forma de [contrato](#) de cómo funcionará la interacción 
+
+===
+<!-- .slide: data-background-iframe="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collection.html" -->
+## [Ejemplo API Java](#)
+
+===
+## [Ejemplo API WS](#)
+
+![API WS](https://drek4537l1klr.cloudfront.net/geewax3/v-5/Figures/image004.jpg)
+
+---
+## [Que es un Web Services (WS)](#)
+- Es una [API](#) disponible sobre la [Web](#) 
+
+- Actualmente los 2 tipos de Web Services más difundidos son:
+	* [RESTful](#) Web Services 
+	* [SOAP](#) Web Services 
+
+===
+## [RESTful WS](#)
+- La sigla significa [Representational State Transfer](#) y es un estilo de arquitectura 
+
+- Totalmente basado en protocolo [HTTP](#) 
+
+- El formato de intercambio más utilizado es [JSON](#), pero también puedes utilizar otros como XML o texto plano.
+
+- Utiliza los [métodos HTTP](#) para dar significado a los mensajes: GET, POST, PUT, DELETE 
+
+===
+## [RESTful WS](#)
+
+![RESTful WS](https://gocoding.org/wp-content/uploads/2019/06/Restful-Web-Services.png)
+
+===
+## [RESTful HTTP Methods](#)
+
+![HTTP Methods](https://www.edureka.co/blog/wp-content/uploads/2019/06/CRUD-Operations-What-is-REST-API-Edureka-1.png) <!-- .element: style="background: white;" -->
+
+===
+## [SOAP](#)
+
+- SOAP está fuertemente basado en [XML](#) para su funcionamiento 
+
+- Soporta [varios protocolos](#) para su comunicación 
+
+- Los servicios web se describen usando [WSDL](#) (Web Services Description Language). 
+
+===
+## [RESTful vs SOAP](#)
+
+- SOAP fue más popular en un inicio 
+
+- Pero con el tiempo RESTful WS fue ganando terreno por ser más liviano y rápido de implementar 
+
+- Actualmente ambos son soportados ampliamente en los lenguajes de programación 
+
+---
+## [Diferencias entre API y WS](#)
+- Los Web Services son APIs sobre internet 
+
+- Pero las APIs NO necesariamente son Web Services 
+
+===
+## [Lectura para Profundización](#)
+
+https://livebook.manning.com/book/api-design-patterns/chapter-1/v-5/12
+
+---
+## [Protocolos y Formatos](#)
+- Protocolos: 
+	* HTTP(S)	
+	* SMTP 
+	* JMS 
+
+- Formatos: 
+	* JSON 
+	* XML	
+
+===
+## [HTTP](#)
+
+- Es un [protocolo](#) sobre [internet](#) 
+
+- Permite sistemas distribuidos, colaborativos e hipermedia (gráficos, audios, videos, texto, entre otros)
+
+- HTTP representa a sus [recursos](#) a través de [URIs](#) con esquemas HTTP o HTTPS 
+
+- Estos recursos son invocados a través de distintos [métodos: GET, POST, PUT, DELETE](#) 
+
+===
+## [JSON](#)
+
+- La sigla JSON significa [Javascript Object Notation](#)
+
+- Es un [formato ligero de intercambio de datos](#) 
+
+- Es de fácil lectura, escritura y manipulación por parte de humanos y máquinas 
+
+===
+## [Ejemplo JSON](#)
+
+```json[] 
+{
+	"menu": {
+		"id": "file",
+		"value": "File",
+		"popup": {
+			"menuitem": [
+				{"value": "New", "onclick": "CreateNewDoc()"},
+				{"value": "Open", "onclick": "OpenDoc()"},
+				{"value": "Close", "onclick": "CloseDoc()"}
+			]
+		}
+	}
+}
+```
+
+===
+## [XML](#)
+
+- Su sigla significa [eXtensible Markup Language](#)
+
+- Como su nombre lo indica, es un formato extensible que usa etiquetas en su sintaxis 
+
+- Es un formato estándar y ampliamente usados para el intercambio de datos 
+
+===
+## [Ejemplo XML](#)
+Compare con JSON:
+```xml[] 
+<menu id="file" value="File">
+	<popup>
+		<menuitem value="New" onclick="CreateNewDoc()" />
+		<menuitem value="Open" onclick="OpenDoc()" />
+		<menuitem value="Close" onclick="CloseDoc()" />
+	</popup>
+</menu>
+```
+
+---
+## [WS a Consumir](#)
+https://jsonplaceholder.typicode.com/posts
+
+```json[] 
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  ... 
+]
+```
+===
+## [Estructura del JSON](#)
+
+Nos podemos ayudar de este sitio para entender la estructura: 
+https://jsonformatter.curiousconcept.com/ 
+
+---
+## [Proyecto Maven](#)
+
+```xml[] 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>cl.aiep.java</groupId>
+	<artifactId>ws</artifactId>
+	<version>1.0</version>
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.13.2</version>
+		</dependency>  	
+	</dependencies>	
+</project>
+```
+
+===
+## [Código Java](#)
+```java[] 
+class Post {
+	int userId;
+	int id;
+	String title;
+	String body;
+	
+	@Override
+	public String toString() {		
+		return String.format("ID: %d Título: %s Texto: %s %n%n", id, title, body);
+	}
+
+	// GETTERS y SETTERS omitidos 
+}
+```
+
+===
+## [Explicación](#)
+- La clase Post representa un registro del JSON.
+
+- Los atributos tienen los mismos nombres 
+
+- El método toString() nos ayudará a mostrar de manera fácil el resultado 
+
+===
+## [Código Java](#)
+```java[] 
+public static String getURLContent(String url) throws Exception {
+	try (
+		InputStream stream = (new URL(url)).openStream(); 
+	){		
+		return new String(stream.readAllBytes(), StandardCharsets.UTF_8);
+	} catch (Exception e) {
+		throw e;
+	}
+}
+```
+
+===
+## [Explicación](#)
+
+- Trae el contenido de una URL (método GET HTTP)
+
+- Devuelve un string
+
+- Lo considera en codificación UTF-8 
+
+===
+## [Código Java](#)
+```java[] 
+public static void getPosts() {
+	String url = "https://jsonplaceholder.typicode.com/posts";
+	try {
+		String jsonData = getURLContent(url);
+		ObjectMapper mapper = new ObjectMapper();
+		List<Post> posts = mapper.readValue(jsonData, new TypeReference<List<Post>>(){});
+		System.out.println( posts );
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+}
+```
+
+===
+## [Explicación](#)
+
+- Utilizando la librería Jackson generamos un objeto ObjectMapper 
+
+- a este objeto le pasamos los datos y le especificamos el tipo para su mapeo 
+
+- Finalmente mostramos los datos por consola 
+
+---
+## [Más sobre Jackson](#)
+
+- Jackson es una librería de Java
+
+- Sirve para el procesamiento de JSON 
+
+- Tiene un alto rendimiento a la hora del procesamiento 
+
+===
+## [Sin Clase de Mapeo](#)
+
+También podemos evitar crear clases de Mapeo 
+
+```java[7] 
+public static void getIndicador() {
+	String url = "https://mindicador.cl/api";
+	try {
+		String jsonData = getURLContent(url);
+		ObjectMapper mapper = new ObjectMapper();
+		JsonNode indicadores = mapper.readTree(jsonData);
+		Float uf = Float.parseFloat( indicadores.get("uf").get("valor").asText() );
+		System.out.printf( "UF: %.2f", uf );
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+}
+```
+
+===
+## [Mapeo Avanzado](#)
+
+```java[]
+class Usuario {
+	int id;
+	String name;
+	String email;
+	
+	// indica que en el JSON aparece como "username"
+	@JsonProperty("username")
+	String user;
+
+	// indica que Jackson debe omitir este atributo 
+	@JsonIgnore 
+	String noUtilizar;
+
+	// GETTERS y SETTERS 
+}
+```
+
+===
+## [Mapeo Avanzado](#)
+
+```java[6-7]
+public static void getUsers() {
+	String url = "https://jsonplaceholder.typicode.com/users";
+	try {
+		String jsonData = getURLContent(url);
+
+		// si no nos interesa mapear todos los campos 
+		ObjectMapper mapper = (new ObjectMapper()).configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+		
+		List<Usuario> usuarios = mapper.readValue(jsonData, new TypeReference<List<Usuario>>(){});
+		System.out.println( usuarios );
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+}
+```
+				    </textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/reveal.min.js" integrity="sha512-m6ShsCUzCQmgDHleTy2FbuzCPKnSOOypMBALE6LT/q858WxkGMJLajB5Obw+BT8C3mIIoBfEM5F+G5/Eemixfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/notes/notes.min.js" integrity="sha512-1D/hQT/6yIzQICAQCvGWV1x+85VZFQGZGcRE3P7f1/5b8bk3dvbaiOF2lLENEqr6lYQ0NZataWohlZQvblyxcA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/markdown/markdown.min.js" integrity="sha512-QAU7Ux8iEB53koLKFCtddfFp0D1+uQWoX3ROnRDLeiE98XHOkMciaup0Spc014jQAuJaqz8VjUZdBqriheI4Lg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.0/plugin/highlight/highlight.min.js" integrity="sha512-U3fPDUX5bMrn1wnYqjaK44MFA9E6MKS+zPAg9WPAGF5XhReBeDj3FGaA831CjueG+YJxYA3WaO/m33kMIoOs/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
