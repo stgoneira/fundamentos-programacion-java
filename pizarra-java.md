@@ -1,22 +1,17 @@
 Fundamentos de Programación en Java
 ====================================
 
-Martes 
-2022-04-19
-Sesión 36 de 37
+Miércoles  
+2022-04-20
+Sesión 37 de 37
 
 BREAK de 20:10 a 20:25hrs 
+Cambio de sala a la vuelta del BREAK 
 
 Para hoy 
 ----------
-- JAR y WAR 
-- Launch4J 
-- Probar componente de Swing JTable 
-- Bases de Datos Incrustables:
-	* HSQLDB 
-	* H2 
-	* Apache Derby 
-	* SQLite 
+- Revisión de trabajos 
+- Feedback 
 
 Entrega de Trabajos
 ---------------------
@@ -40,6 +35,25 @@ IMPORTANTE: Recuerde que cada integrante del grupo debe subir su enlace (Github)
 
 8. Trabajo Práctico Final M4 (13 abril)Tarea
 El sistema marca este ítem como finalizado de acuerdo con las condiciones Trabajo Práctico Final M4 (13 abril)
+
+///////////////////////////////////////////  
+
+Martes 
+2022-04-19
+Sesión 36 de 37
+
+BREAK de 20:10 a 20:25hrs 
+
+Para hoy 
+----------
+- JAR y WAR 
+- Launch4J 
+- Probar componente de Swing JTable 
+- Bases de Datos Incrustables:
+	* HSQLDB 
+	* H2 
+	* Apache Derby 
+	* SQLite 
 
 ///////////////////////////////////////////  
 
